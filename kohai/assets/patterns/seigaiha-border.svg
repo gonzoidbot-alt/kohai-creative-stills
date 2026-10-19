@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288">
+  
+  <defs>
+    <pattern id="tile" width="48" height="32" patternUnits="userSpaceOnUse">
+      <defs>
+        <g id="sb" fill="none" stroke="#1B2A4E" stroke-width="0.5">
+          <circle r="23.6"></circle><circle r="21.2"></circle><circle r="18.8"></circle><circle r="10"></circle><circle r="7.6"></circle>
+        </g>
+        <mask id="sba"><rect x="-24" y="-32" width="96" height="112" fill="#fff"></rect><circle cx="24" cy="16" r="24" fill="#000"></circle></mask>
+        <mask id="sbb"><rect x="-24" y="-32" width="96" height="112" fill="#fff"></rect><circle cx="0" cy="32" r="24" fill="#000"></circle><circle cx="48" cy="32" r="24" fill="#000"></circle></mask>
+        <mask id="sbc"><rect x="-24" y="-32" width="96" height="112" fill="#fff"></rect><circle cx="24" cy="48" r="24" fill="#000"></circle></mask>
+      </defs>
+      <g mask="url(#sba)"><use href="#sb" x="0" y="0"></use><use href="#sb" x="48" y="0"></use></g>
+      <g mask="url(#sbb)"><use href="#sb" x="24" y="16"></use></g>
+      <g mask="url(#sbc)"><use href="#sb" x="0" y="32"></use><use href="#sb" x="48" y="32"></use></g>
+      <use href="#sb" x="24" y="48"></use>
+    </pattern>
+  </defs>
+  <rect width="288" height="288" fill="url(#tile)"></rect>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288">
+  
+  <defs>
+    <pattern id="tile" width="48" height="48" patternUnits="userSpaceOnUse">
+      <g fill="none" stroke="#1B2A4E" stroke-width="1.3">
+        <circle cx="0" cy="0" r="24"></circle><circle cx="48" cy="0" r="24"></circle>
+        <circle cx="0" cy="48" r="24"></circle><circle cx="48" cy="48" r="24"></circle>
+        <circle cx="24" cy="24" r="24"></circle>
+      </g>
+    </pattern>
+  </defs>
+  <rect width="288" height="288" fill="url(#tile)"></rect>
+</svg>

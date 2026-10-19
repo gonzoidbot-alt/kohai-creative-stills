@@ -1,0 +1,11 @@
+:root{
+--space-1:4px;--space-2:8px;--space-3:12px;--space-4:16px;--space-5:24px;--space-6:32px;--space-7:48px;--space-8:64px;--space-9:96px;
+--section-pad:96px; /* vertical rhythm between page sections */
+--content-max:1120px;
+--radius-sm:3px; /* chips, tags, inputs */
+--radius-md:6px; /* buttons, cards */
+--radius-full:999px;
+--shadow-card:0 1px 2px rgba(27,42,78,.06),0 8px 24px rgba(27,42,78,.08); /* soft, indigo-tinted, never harsh */
+--shadow-plaque:0 2px 6px rgba(27,42,78,.1),0 16px 40px rgba(27,42,78,.12);
+--ichimonji:linear-gradient(90deg,var(--kohai-kin),#D8BC6E,var(--kohai-kin)); /* gold strip where brocade meets paper */
+}

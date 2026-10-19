@@ -1,0 +1,13 @@
+:root{
+--font-serif-display:'Shippori Mincho',Georgia,serif; /* headlines, section titles, the Kōhai wordmark — never UI chrome */
+--font-sans:'Zen Kaku Gothic New','Hiragino Kaku Gothic ProN',sans-serif; /* body, buttons, labels */
+--text-display:clamp(40px,5vw,64px); /* hero headline, serif 600 */
+--text-h2:clamp(30px,3.4vw,42px); /* section titles, serif 600 */
+--text-h3:24px; /* card titles, serif 600 */
+--text-body:16px; /* sans 400, body runs 15–17px */
+--text-small:14px; /* captions, meta */
+--text-eyebrow:13px; /* sans 700, letter-spacing .14em, uppercase, ai indigo */
+--leading-body:1.58; /* 1.55–1.6 */
+--leading-heading:1.18;
+--tracking-eyebrow:.14em;
+}

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288">
+  
+  <defs>
+    <pattern id="tile" width="24.25" height="42" patternUnits="userSpaceOnUse">
+      <g fill="none" stroke="#1B2A4E" stroke-width="1.1">
+        <path d="M12.12 0L24.25 7L24.25 21L12.12 28L0 21L0 7Z"></path>
+        <path d="M0 -21L12.12 -14L12.12 0L0 7L-12.12 0L-12.12 -14Z"></path>
+        <path d="M24.25 -21L36.37 -14L36.37 0L24.25 7L12.12 0L12.12 -14Z"></path>
+        <path d="M0 21L12.12 28L12.12 42L0 49L-12.12 42L-12.12 28Z"></path>
+        <path d="M24.25 21L36.37 28L36.37 42L24.25 49L12.12 42L12.12 28Z"></path>
+      </g>
+    </pattern>
+  </defs>
+  <rect width="288" height="288" fill="url(#tile)"></rect>
+</svg>

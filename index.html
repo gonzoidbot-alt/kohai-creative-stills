@@ -1,39 +1,63 @@
-<!DOCTYPE html>
-<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Kohai — Still Ad Review Board</title>
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Kōhai — Creative review board</title>
+<link rel="stylesheet" href="kohai/styles.css">
 <style>
-:root{--bg:#0b0d12;--panel:#141821;--ink:#e8ecf4;--dim:#8b94a7;--gold:#d9a441}
-*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,'Helvetica Neue',Arial,sans-serif}
-.wrap{max-width:1200px;margin:0 auto;padding:32px 20px 80px}
-h1{font-size:30px;margin:0 0 6px}h1 b{color:var(--gold)}
-.sub{color:var(--dim);font-size:14px;margin-bottom:28px}
-h2{font-size:20px;margin:40px 0 14px;color:var(--ink)}
-h2 .n{color:var(--dim);font-weight:400;font-size:14px}
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:16px}
-.card{background:var(--panel);border-radius:12px;overflow:hidden;border:1px solid #1e2430}
-.card img{width:100%;display:block}
-.meta{padding:12px 14px}
-.meta .tag{font-size:11px;letter-spacing:.8px;text-transform:uppercase;color:var(--gold)}
-.meta .t{font-size:14px;margin-top:4px;color:var(--ink);line-height:1.4}
-.meta .s{font-size:12px;color:var(--dim);margin-top:4px;line-height:1.4}
-.formula{background:var(--panel);border:1px solid #1e2430;border-radius:12px;padding:18px 20px;font-size:14px;line-height:1.7;color:#c8cfdd}
-.formula b{color:var(--gold)}
-.foot{margin-top:36px;color:var(--dim);font-size:12px;line-height:1.6}
-</style></head><body><div class="wrap">
-<h1>Kohai <b>still-ad review board</b></h1>
-<div class="sub">Batch 1 — 6 stills built on the proven visual formula from the competitive set · built 2026-10-19 · DRAFTS for review, nothing launched</div>
+*{box-sizing:border-box}body{margin:0;background:var(--kohai-shironeri);color:var(--kohai-sumi);font:400 16px/1.58 var(--font-sans)}
+.hero{background:var(--surface-stage);color:var(--kohai-shironeri);padding:56px 24px 64px;position:relative;overflow:hidden}
+.hero .in,.wrap{max-width:1180px;margin:0 auto}
+.lock{display:flex;align-items:center;gap:12px;margin-bottom:34px}.lock svg{width:26px;height:26px}.lock span{font:500 26px/1 var(--font-serif-display)}
+.eb{display:block;font:700 12px/1 var(--font-sans);letter-spacing:.14em;text-transform:uppercase;color:var(--kohai-ai-indigo);margin-bottom:10px}
+.hero .eb{color:var(--kohai-sky-on-dark)}
+h1{font:600 clamp(36px,5vw,58px)/1.12 var(--font-serif-display);margin:0 0 14px}h1 span{color:var(--kohai-sky-on-dark)}
+.hero p{max-width:640px;color:var(--kohai-sky-on-dark);margin:0}
+.band{height:26px;color:var(--kohai-ai-indigo);opacity:.55}
+.hero .crest{position:absolute;right:-120px;top:-60px;width:520px;height:520px;background:var(--kohai-sky-on-dark);opacity:.08;-webkit-mask:url(kohai/assets/icons/kamon-sakura.svg) center/contain no-repeat;mask:url(kohai/assets/icons/kamon-sakura.svg) center/contain no-repeat}
+section{padding:56px 24px 8px}
+h2{font:600 clamp(26px,3.2vw,38px)/1.18 var(--font-serif-display);color:var(--kohai-kon);margin:0 0 8px}
+.lead{color:var(--text-muted);max-width:760px;margin:0 0 28px}
+.vids{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:22px}
+.vid,.still{margin:0;background:var(--surface-card);border:1px solid var(--border-line);border-radius:6px;overflow:hidden;box-shadow:var(--shadow-card)}
+.vid video{width:100%;aspect-ratio:9/16;display:block;background:var(--kohai-kon)}
+figcaption{padding:16px 18px 18px}figcaption b{display:block;font:600 19px/1.3 var(--font-serif-display);color:var(--kohai-kon);margin-bottom:6px}
+figcaption p{margin:0 0 10px;font-size:14px;color:var(--kohai-sumi)}.meta{font-size:12px;color:var(--text-muted)}
+.stills{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:22px}.still img{width:100%;display:block;aspect-ratio:4/5;object-fit:cover}
+.note{background:var(--surface-card);border:1px solid var(--border-line);border-left:3px solid var(--kohai-kin);border-radius:6px;padding:16px 20px;font-size:14px;margin:0 0 26px;max-width:860px}
+.legacy{opacity:.55}.legacy .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:14px}.legacy .card{background:#fff;border:1px solid var(--border-line);border-radius:6px;overflow:hidden}.legacy img{width:100%;display:block}.legacy .meta{padding:8px 10px;font-size:12px}.legacy .tag{font-weight:700;font-size:11px}.legacy .t{font-size:13px}.legacy .s{display:none}
+.legacy .formula,.legacy h2{display:none}
+footer{padding:48px 24px 60px;color:var(--text-muted);font-size:13px}
+</style></head><body>
+<header class="hero"><div class="crest"></div><div class="in">
+<div class="lock"><svg viewBox="0 0 32 32"><path d="M9.8418 9.16895H22.1592V9.16406H25.0762V29.2607H22.1592V12.0859H9.8418V29.2607H6.9248V9.16406H9.8418V9.16895ZM28.9658 5.9248H3.03516V3.00781H28.9658V5.9248Z" fill="#CB4C49"/></svg><span>Kōhai</span></div>
+<span class="eb">Creative review board · drafts, not approved</span>
+<h1>AI UGC, round one.<br><span>Four personas. Ten assets.</span></h1>
+<p>Talking-head videos and UGC stills for the construction and SMB lanes, built on the Kōhai ad design system. Nothing here is launched. Launch needs your approval.</p>
+</div></header>
+<div class="band kohai-seigaiha-border"></div>
+<div class="wrap">
+<section style="padding-left:0;padding-right:0"><span class="eb">01 / Talking-head videos</span><h2>Four personas, one script shape.</h2>
+<p class="lead">Each ad: hook (the pain, in their words), then the turn (brief Kōhai, review, approve), then a branded end card. Real lip-synced dialogue, burned-in captions for sound-off viewing, and an “AI-generated persona” label on every frame.</p>
+<div class="note"><b>Before launch:</b> these are synthetic people, so Meta’s AI-content disclosure needs to be turned on at upload, and the persona must never be presented as a real customer. Scripts use only verified claims: briefing instead of prompting, Mochi as Chief of Staff, the Library, approval gates, and the 7-day trial. The construction tasks (RFI scope questions, daily logs) are <b>custom-role</b> use cases, so confirm them with product.</div>
+<div class="vids"><figure class="vid"><video src="ugc/video/kohai_ugc_estimator_9x16_web.mp4" poster="ugc/video/kohai_ugc_estimator_poster.jpg" controls playsinline preload="none"></video>
+<figcaption><span class="eb">Construction · Estimator</span><b>Maya</b><p>“If you estimate for a living, you know the feeling. Bid's due Friday, and the RFIs are still sitting in your inbox. So brief Kohai like a coworker. It drafts the scope questions. You review them and hit send.”</p><span class="meta">18.5s · 9:16 · Veo 3.1 · F7 creator format</span></figcaption></figure>
+<figure class="vid"><video src="ugc/video/kohai_ugc_superintendent_9x16_web.mp4" poster="ugc/video/kohai_ugc_superintendent_poster.jpg" controls playsinline preload="none"></video>
+<figcaption><span class="eb">Construction · Superintendent</span><b>Dave</b><p>“End of the day, the last thing I want to do is sit down and type up the daily log. Now Kohai turns my site notes into the draft. I check it, I approve it, and I go home.”</p><span class="meta">18.5s · 9:16 · Veo 3.1 · F7 creator format</span></figcaption></figure>
+<figure class="vid"><video src="ugc/video/kohai_ugc_agency_9x16_web.mp4" poster="ugc/video/kohai_ugc_agency_poster.jpg" controls playsinline preload="none"></video>
+<figcaption><span class="eb">SMB · Solo agency owner</span><b>Priya</b><p>“Running an agency solo means the Monday client report eats your whole morning. With Kohai you brief it once. Your chief of staff has the report ready for your review.”</p><span class="meta">18.5s · 9:16 · Veo 3.1 · F7 creator format</span></figcaption></figure>
+<figure class="vid"><video src="ugc/video/kohai_ugc_ecom_9x16_web.mp4" poster="ugc/video/kohai_ugc_ecom_poster.jpg" controls playsinline preload="none"></video>
+<figcaption><span class="eb">SMB · E-commerce owner</span><b>Marcus</b><p>“I'm packing orders all day. I do not have time to chase invoices and answer every email. Kohai drafts the follow-ups for me. Anything sensitive waits for my okay before it goes out.”</p><span class="meta">18.5s · 9:16 · Veo 3.1 · F7 creator format</span></figcaption></figure>
+</div></section>
+<section style="padding-left:0;padding-right:0"><span class="eb">02 / UGC stills</span><h2>Pulled from the same footage.</h2>
+<p class="lead">Frames from the video shoots, graded to the indigo stage and set in brand type. Three treatments: a quote over footage, a notification prop, and a split silk panel.</p>
+<div class="stills"><figure class="still"><img src="ugc/stills/kohai_ugc_still_01.jpg" loading="lazy" alt="Bid's due Friday. The RFIs are drafted."><figcaption><span class="eb">For estimators</span><b>Bid's due Friday. The RFIs are drafted.</b><span class="meta">F1/F7 quote over footage · 4:5</span></figcaption></figure>
+<figure class="still"><img src="ugc/stills/kohai_ugc_still_02.jpg" loading="lazy" alt="I check it. Then I go home."><figcaption><span class="eb">For superintendents</span><b>I check it. Then I go home.</b><span class="meta">F2 notification prop · 4:5</span></figcaption></figure>
+<figure class="still"><img src="ugc/stills/kohai_ugc_still_03.jpg" loading="lazy" alt="Monday's client report. Ready before your coffee."><figcaption><span class="eb">For agency owners</span><b>Monday's client report. Ready before your coffee.</b><span class="meta">Split · silk panel · 4:5</span></figcaption></figure>
+<figure class="still"><img src="ugc/stills/kohai_ugc_still_04.jpg" loading="lazy" alt="Pack the orders. Approve the follow-ups."><figcaption><span class="eb">For store owners</span><b>Pack the orders. Approve the follow-ups.</b><span class="meta">F1/F7 quote over footage · 4:5</span></figcaption></figure>
+<figure class="still"><img src="ugc/stills/kohai_ugc_still_05.jpg" loading="lazy" alt="The day ends. The log is drafted."><figcaption><span class="eb">For superintendents</span><b>The day ends. The log is drafted.</b><span class="meta">Split · silk panel · 4:5</span></figcaption></figure>
+<figure class="still"><img src="ugc/stills/kohai_ugc_still_06.jpg" loading="lazy" alt="Don't prompt it. Brief it."><figcaption><span class="eb">For estimators</span><b>Don't prompt it. Brief it.</b><span class="meta">F2 notification prop · 4:5</span></figcaption></figure>
+</div></section>
+<section class="legacy" style="padding-left:0;padding-right:0"><span class="eb">Archive · superseded</span><h2 style="display:block;font-size:22px">Batch 1 stills (pre-brand-pack)</h2>
+<p class="lead">Built before the Kōhai brand pack arrived: gold and cream palette, sans wordmark, and a ChatGPT comparison hook. Replaced by the design system formats. Kept for reference only.</p>
 
-<h2>The formula <span class="n">— extracted from the winners</span></h2>
-<div class="formula">
-<b>1.</b> One sentence, one idea, huge type — the still is a billboard, not a landing page.<br>
-<b>2.</b> Two-tone headline: familiar anchor in neutral, the twist in an accent color.<br>
-<b>3.</b> Familiar-anchor twist copy: "It's literally ChatGPT…" / "12 AI employees without 12 salaries" — anchor to what they know, subvert it.<br>
-<b>4.</b> Characters & scenes over dashboard screenshots — the product is an employee, so it's shown as a character (or pure typography).<br>
-<b>5.</b> De-emphasized brand + tiny CTA — the message earns the click.<br>
-<b>6.</b> One committed aesthetic per brand, locked template, one variable changed per iteration.
-</div>
-
-<h2>Batch 1 — Kohai stills <span class="n">— ready for review</span></h2>
 <div class="grid">
 <div class="card"><img src="stills/kohai_typo_01.png"><div class="meta"><div class="tag">TYPO TEMPLATE</div><div class="t">"It's literally ChatGPT, except it chases change orders."</div><div class="s">Format: Lindy-style type-only. Lane: category reframe + construction vertical.</div></div></div>
 <div class="card"><img src="stills/kohai_typo_02.png"><div class="meta"><div class="tag">TYPO TEMPLATE</div><div class="t">"Running a job site and still bidding at 2am?"</div><div class="s">Format: Lindy-style type-only. Lane: 2am pain hook, construction persona.</div></div></div>
@@ -49,5 +73,7 @@ h2 .n{color:var(--dim);font-weight:400;font-size:14px}
 <div class="card"><img src="exemplars/lindy_3118937498471692_3.jpg"><div class="meta"><div class="tag">LINDY · A/B sibling</div><div class="t">Same template, one hook variable changed</div></div></div>
 <div class="card"><img src="exemplars/marblism_1769320344267627_195.jpg"><div class="meta"><div class="tag">MARBLISM · 8-wk survivor</div><div class="t">Photo scene + illustrated character + UI prop</div></div></div>
 </div>
-<div class="foot">Method: visual formula extracted via vision analysis of proven statics from Meta Ad Library (Oct 2026 scrape). Kohai hooks drawn from the construction campaign brief lanes (Estimator / PM / Superintendent / GC Owner). Imagery: flux-2-max; typography composited in code for crisp text. No claims, no pricing, no customer counts — drafts only, launch requires approval.</div>
-</div></body></html>
+</section>
+</div>
+<footer class="wrap">Built Oct 2026 · Video: Veo 3.1 image-to-video, persona frames from flux-2-max · Captions and end cards composited in brand type (Shippori Mincho / Zen Kaku Gothic New) · Design system: <a href="https://gonzoidbot-alt.github.io/kohai-ad-design-system/">kohai-ad-design-system</a> · Drafts only.</footer>
+</body></html>

@@ -1,0 +1,10 @@
+/* Wagara tiles as CSS masks — element background-color:currentColor shows through the weave.
+   Intensity: 3–6% ambient, 8–11% stage grounds, full strength only in seals and border bands. */
+.kohai-shippou,.kohai-asanoha,.kohai-kikko,.kohai-seigaiha-dense,.kohai-seigaiha-border{background-color:currentColor;-webkit-mask-repeat:repeat;mask-repeat:repeat;-webkit-mask-size:288px 288px;mask-size:288px 288px}
+.kohai-shippou{-webkit-mask-image:url(../assets/patterns/shippou.svg);mask-image:url(../assets/patterns/shippou.svg)}
+.kohai-asanoha{-webkit-mask-image:url(../assets/patterns/asanoha.svg);mask-image:url(../assets/patterns/asanoha.svg)}
+.kohai-kikko{-webkit-mask-image:url(../assets/patterns/kikko.svg);mask-image:url(../assets/patterns/kikko.svg)}
+.kohai-seigaiha-dense{-webkit-mask-image:url(../assets/patterns/seigaiha-dense.svg);mask-image:url(../assets/patterns/seigaiha-dense.svg)}
+.kohai-seigaiha-border{-webkit-mask-image:url(../assets/patterns/seigaiha-border.svg);mask-image:url(../assets/patterns/seigaiha-border.svg)}
+.kohai-pattern--ambient{opacity:.05}
+.kohai-pattern--ground{opacity:.1}

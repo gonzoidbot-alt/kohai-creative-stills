@@ -1,0 +1,35 @@
+:root{
+/* Base palette — 藍 indigo dye on unbleached silk */
+--kohai-ai-indigo:#1F4E8C; /* 藍 Primary — links, accents, eyebrows, seals */
+--kohai-kon:#1B2A4E; /* 紺 Deep indigo — stages, dark sections, wordmark ink */
+--kohai-shironeri:#F5F0E8; /* 練色 Canvas — page background, unbleached silk */
+--kohai-sumi:#2C2C2C; /* 墨 Body text, calligraphic accent */
+--kohai-sakura:#F2A7B0; /* 桜 Secondary — blossom accent, never buttons */
+--kohai-matcha:#7A9033; /* 抹茶 Success, growth, the Popular tag */
+/* Extended — stages, gold, niji-iro blossom set */
+--kohai-stage-light:#24406E; /* Radial-gradient tops of dark stages */
+--kohai-stage-floor:#131D36; /* Radial-gradient depths, hero base */
+--kohai-sky-on-dark:#9DB4EC; /* Pattern lines and copy on stages */
+--kohai-aka:#CB4C49; /* Vermillion — the torii logo mark only, never UI */
+--kohai-kin:#C2A24B; /* Kin gold — ichimonji strips */
+--kohai-niji-iro-line:#C18780; /* Blossom outlines — dusty rose */
+--kohai-niji-iro-wash:#F3E2DF; /* Blossom fills — ~30% tint of the line */
+--kohai-bark:#402C1E; /* Branch limbs, calyxes */
+/* Semantic aliases */
+--surface-page:var(--kohai-shironeri);
+--surface-card:#FBF8F2; /* washi, half a step lighter than canvas */
+--surface-stage:radial-gradient(120% 90% at 50% 0%,var(--kohai-stage-light) 0%,var(--kohai-kon) 55%,var(--kohai-stage-floor) 100%);
+--text-body:var(--kohai-sumi);
+--text-heading:var(--kohai-kon);
+--text-muted:#6B665C; /* sumi faded into the silk */
+--text-on-dark:var(--kohai-shironeri);
+--text-muted-on-dark:var(--kohai-sky-on-dark);
+--accent:var(--kohai-ai-indigo);
+--accent-hover:#173E72; /* ai indigo, one dip deeper */
+--link:var(--kohai-ai-indigo);
+--success:var(--kohai-matcha);
+--border-line:rgba(27,42,78,.18); /* kon hairline on silk */
+--border-line-strong:rgba(27,42,78,.4);
+--border-on-dark:rgba(157,180,236,.25);
+--focus-ring:0 0 0 3px rgba(31,78,140,.28);
+}
