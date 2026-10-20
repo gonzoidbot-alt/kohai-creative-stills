@@ -1,0 +1,41 @@
+[
+ {
+  "slug": "xray-agency-founder",
+  "title": "The Fog Lifts",
+  "format": "xray",
+  "persona": "solo agency owner",
+  "eyebrow": "For solo agency owners",
+  "script": [
+   "It's 9pm. The Monday report is still open. The inbox keeps filling.",
+   "Something is happening inside your head.",
+   "Every unfinished task stays lit, a glowing fragment clogging the paths you think with.",
+   "You re-read, switch tabs, lose the thread, and stay late again.",
+   "Now imagine a team stepping in where the load builds.",
+   "Mochi, Kōhai's Chief of Staff, drafted it overnight. It waits for your approval before anything is sent.",
+   "The loop closes. The fragments clear, and the fog lifts.",
+   "Kōhai. Onboard AI colleagues. Get work finished."
+  ],
+  "seconds": 40.1,
+  "spend": 12.43
+ },
+ {
+  "slug": "ditl-estimator",
+  "title": "The Whole Story",
+  "format": "ditl",
+  "persona": "construction estimator",
+  "eyebrow": "For estimators",
+  "script": [
+   "Third alarm. Five a.m. The house is still dark.",
+   "I'm an estimator. Numbers are my job, and the job doesn't wait.",
+   "My daughter's asleep when I leave. Too often, she's asleep when I get back.",
+   "Bid due Friday. RFIs stacking up, each one worded just right.",
+   "Lunch at my desk, over takeoff drawings, counting the same fixtures twice.",
+   "This morning was different. Overnight, Kōhai's team drafted the RFIs and the bid summary from the documents.",
+   "They wait in my Inbox. Nothing goes out until I approve it.",
+   "I left at five. I picked her up myself.",
+   "Tonight, I read the whole story. She fell asleep before the end."
+  ],
+  "seconds": 38.33,
+  "spend": 14.37
+ }
+]
