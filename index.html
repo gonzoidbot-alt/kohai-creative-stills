@@ -49,6 +49,17 @@ footer{padding:48px 24px 60px;color:var(--text-muted);font-size:13px}
 .cm .none{color:var(--text-muted);margin-top:8px}
 figure.flash{outline:3px solid var(--kohai-kin);outline-offset:3px}
 .fbar .tog{font:600 13px/1 var(--font-sans);color:var(--kohai-kon);display:flex;gap:6px;align-items:center;letter-spacing:0;text-transform:none}
+
+.chip-row{display:flex;align-items:center;gap:8px;margin-top:8px}
+.vchip{font:700 12px/1 var(--font-sans);padding:6px 10px;border-radius:999px;background:var(--surface-card);border:1px solid var(--border-line);color:var(--kohai-kon)}
+.vchip b{font-size:14px}
+.vchip.g{background:#EAF3E4;border-color:#7A9033}.vchip.i{background:#E8EDF9;border-color:#1F4E8C}.vchip.a{background:#F9EEDD;border-color:#C9862B}.vchip.r{background:#F7E2E0;border-color:#CB4C49}
+.vchip span{font-weight:500;color:var(--text-muted)}
+.lb{background:var(--surface-card);border:1px solid var(--border-line);border-radius:8px;overflow:hidden;margin-bottom:26px}
+.lb table{width:100%;border-collapse:collapse;font-size:14px}
+.lb th{font:700 11px/1 var(--font-sans);letter-spacing:.12em;text-transform:uppercase;color:var(--text-muted);text-align:left;padding:12px 16px;border-bottom:1px solid var(--border-line)}
+.lb td{padding:10px 16px;border-bottom:1px dashed var(--border-line)}
+.lb tr:last-child td{border-bottom:0}.lb .sc{font:700 17px/1 var(--font-serif-display);color:var(--kohai-kon)}
 </style></head><body>
 <header class="hero"><div class="crest"></div><div class="in">
 <div class="lock"><svg viewBox="0 0 32 32"><path d="M9.8418 9.16895H22.1592V9.16406H25.0762V29.2607H22.1592V12.0859H9.8418V29.2607H6.9248V9.16406H9.8418V9.16895ZM28.9658 5.9248H3.03516V3.00781H28.9658V5.9248Z" fill="#CB4C49"/></svg><span>Kōhai</span></div>
@@ -64,10 +75,19 @@ figure.flash{outline:3px solid var(--kohai-kin);outline-offset:3px}
 
 <div class="band kohai-seigaiha-border"></div>
 <div class="wrap">
+<section style="padding-left:0;padding-right:0" id="virality"><span class="eb">Virality / CTR leaderboard</span><h2>Jev's read on every ad.</h2>
+<p class="lead">Every ad on this page was scored by <b>Jev</b> (jev-latest, Venice's decision model) on stop-scroll probability, hook, clarity, brand recall, CTA pull and how native it looks, combined into a 0–100 score. These are model judgments, not measured CTR — treat them as a ranking to test against, and the risk column flags any ad whose claims need a second look. <span id="lb-meta" style="color:var(--text-muted)"></span></p>
+<div class="lb"><table><thead><tr><th>#</th><th>Ad</th><th>Lane</th><th>Score</th><th>Band</th><th>Risk</th><th>Highest-leverage fix</th></tr></thead><tbody id="lb-body"></tbody></table></div></section>
 <section style="padding-left:0;padding-right:0"><span class="eb">00 / Pipeline videos · new</span><h2>One prompt in, finished ad out.</h2>
 <p class="lead">Built end to end by the new pipeline: script (verified claims only) → character-consistent scenes with an automatic QA gate → narrator voice → image-to-video clips → word-timed captions → music ducked under the voice → branded end card. Two formats from the post you sent: the x-ray "inside your head" ad and the 3D "day in the life" short.</p>
 <div class="vids"><figure data-id="pv-xray-agency-founder" data-persona="agency" data-lane="smb" data-fmt="video" class="vid"><video src="ugc/pipeline/xray-agency-founder.mp4" poster="ugc/pipeline/xray-agency-founder.jpg" controls playsinline preload="none"></video><figcaption><span class="eb">X-ray · Inside your week · Solo agency founder</span><b>The Fog Lifts</b><p>“It's 9pm. The Monday report is still open. The inbox keeps filling. Something is happening inside your head. Every unfinished task stays lit, a glowing fragment clogging the paths you think with. You re-read, switch tabs, lose the thread, and stay late again. Now imagine a team stepping in where the load builds. Mochi, Kōhai's Chief of Staff, drafted it overnight. It waits for your approval before anything is sent. The loop closes. The fragments clear, and the fog lifts. Kōhai. Onboard AI colleagues. Get work finished.”</p><span class="meta">40.1s · one prompt → finished ad · ≈$12 API spend</span></figcaption></figure>
 <figure data-id="pv-ditl-estimator" data-persona="estimator" data-lane="construction" data-fmt="video" class="vid"><video src="ugc/pipeline/ditl-estimator.mp4" poster="ugc/pipeline/ditl-estimator.jpg" controls playsinline preload="none"></video><figcaption><span class="eb">Day in the life · 3D animated · Estimator (Maya)</span><b>The Whole Story</b><p>“Third alarm. Five a.m. The house is still dark. I'm an estimator. Numbers are my job, and the job doesn't wait. My daughter's asleep when I leave. Too often, she's asleep when I get back. Bid due Friday. RFIs stacking up, each one worded just right. Lunch at my desk, over takeoff drawings, counting the same fixtures twice. This morning was different. Overnight, Kōhai's team drafted the RFIs and the bid summary from the documents. They wait in my Inbox. Nothing goes out until I approve it. I left at five. I picked her up myself. Tonight, I read the whole story. She fell asleep before the end.”</p><span class="meta">38.33s · one prompt → finished ad · ≈$14 API spend</span></figcaption></figure>
+</div></section>
+<section style="padding-left:0;padding-right:0" id="pipeline"><span class="eb">00 / Pipeline videos · new</span><h2>One prompt in, finished ad out.</h2>
+<p class="lead">Built end to end by the pipeline: script (verified claims only) → character-consistent scenes with an automatic QA gate → narrator voice → image-to-video clips → word-timed captions → music ducked under the voice → branded end card. Three formats so far: the x-ray "inside your head" ad, the 3D "day in the life" short, and the stacked reaction duet.</p>
+<div class="vids"><figure data-id="pv-xray-agency-founder" data-persona="agency" data-lane="smb" data-fmt="video" class="vid"><video src="ugc/pipeline/xray-agency-founder.mp4" poster="ugc/pipeline/xray-agency-founder.jpg" controls playsinline preload="none"></video><figcaption><span class="eb">X-ray · Inside your week · Solo agency founder</span><b>The Fog Lifts</b><p>“It's 9pm. The Monday report is still open. The inbox keeps filling. Something is happening inside your head. Every unfinished task stays lit, a glowing fragment clogging the paths you think with. You re-read, switch tabs, lose the thread, and stay late again. Now imagine a team stepping in where the load builds. Mochi, Kōhai's Chief of Staff, drafted it overnight. It waits for your approval before”</p><span class="meta">40.1s · one prompt → finished ad · ≈$12 API spend</span></figcaption></figure>
+<figure data-id="pv-ditl-estimator" data-persona="estimator" data-lane="construction" data-fmt="video" class="vid"><video src="ugc/pipeline/ditl-estimator.mp4" poster="ugc/pipeline/ditl-estimator.jpg" controls playsinline preload="none"></video><figcaption><span class="eb">Day in the life · 3D animated · Estimator (Maya)</span><b>The Whole Story</b><p>“Third alarm. Five a.m. The house is still dark. I'm an estimator. Numbers are my job, and the job doesn't wait. My daughter's asleep when I leave. Too often, she's asleep when I get back. Bid due Friday. RFIs stacking up, each one worded just right. Lunch at my desk, over takeoff drawings, counting the same fixtures twice. This morning was different. Overnight, Kōhai's team drafted the RFIs and th”</p><span class="meta">38.33s · one prompt → finished ad · ≈$14 API spend</span></figcaption></figure>
+<figure data-id="pv-react-common-enemy" data-persona="founder" data-lane="smb" data-fmt="video" class="vid"><video src="ugc/pipeline/react-common-enemy.mp4" poster="ugc/pipeline/react-common-enemy.jpg" controls playsinline preload="none"></video><figcaption><span class="eb">Reaction duet · stacked split · Small business owners</span><b>Name the enemy. Then hire for it.</b><p>“Stop posting more content. Your brand needs an enemy your customers already hate. Okay, that's actually killer keep going. Yeah So name it out loud, the busy work that eats a small business owners whole week. Be the hero who protects your customer's time. Every message should say, &quot;We guard your time.&quot; - I disagree slightly, I smash. You can't just say you protect time. - Right. - You have to actu”</p><span class="meta">60.14s · one prompt → finished ad · ≈$25 API spend</span></figcaption></figure>
 </div></section>
 <section style="padding-left:0;padding-right:0"><span class="eb">01 / Talking-head videos</span><h2>Four personas, one script shape.</h2>
 <p class="lead">Each ad: hook (the pain, in their words), then the turn (brief Kōhai, review, approve), then a branded end card. Real lip-synced dialogue and burned-in captions for sound-off viewing.</p>
@@ -185,6 +205,27 @@ d.querySelector('.ln').onclick=e=>{navigator.clipboard.writeText(location.origin
 f.appendChild(d)});
 const hc=document.getElementById('hasc');hc.onchange=()=>{document.querySelectorAll('figure[data-id]').forEach(f=>{if(hc.checked&&!(+f.dataset.comments))f.classList.add('hide');else if(!hc.checked)f.classList.remove('hide')});if(!hc.checked)document.getElementById('persona').onchange()};
 const m=(window.__h||'').match(/ad=([\w-]+)/);if(m){const f=document.querySelector(`figure[data-id="${m[1]}"]`);if(f){f.scrollIntoView({block:'center'});f.classList.add('flash')}}
+})();
+</script>
+<script>
+(async()=>{const S=await fetch('ugc/pipeline/scores.json?'+Date.now()).then(r=>r.json()).catch(()=>({}));
+const esc=s=>s.replace(/[&<>"]/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[m]));
+const FIX={hook1:"stronger first line",product:"show the product sooner",outcome:"more specific outcome",persona:"tighter persona",cta:"bolder CTA"};
+const cls=s=>s>=75?'g':s>=60?'i':s>=45?'a':'r';
+const rows=[];
+for(const [id,v] of Object.entries(S)){
+  const f=document.querySelector(`figure[data-id="${id}"]`); if(!f) continue;
+  f.dataset.score=v.score;
+  const c=document.createElement('div'); c.className='chip-row';
+  c.innerHTML=`<span class="vchip ${cls(v.score)}"><b>${v.score}</b> / 100 <span>· ${esc(v.band.replace(' (≈3%+ CTR potential)',''))}</span></span>`+
+    (v.risk>=0.5?`<span class="vchip r"><b>⚠</b> risk ${Math.round(v.risk*100)}%</span>`:'');
+  f.querySelector('figcaption').appendChild(c);
+  const t=f.querySelector('figcaption b'); rows.push({id,score:v.score,band:v.band,risk:v.risk,fix:FIX[v.fix]||v.fix,title:t?t.textContent:id,lane:f.dataset.lane});
+}
+rows.sort((a,b)=>b.score-a.score);
+document.getElementById('lb-body').innerHTML=rows.map((r,i)=>`<tr><td>${i+1}</td><td><a href="#ad=${r.id}" style="color:inherit">${esc(r.title.slice(0,64))}</a></td><td>${esc(r.lane)}</td><td class="sc">${r.score}</td><td>${esc(r.band)}</td><td>${r.risk>=0.5?'⚠':''} ${r.risk.toFixed(2)}</td><td>${esc(r.fix)}</td></tr>`).join('');
+const backs=Object.values(S).filter(v=>v.backend!=='jev-latest (venice decisions)').length;
+document.getElementById('lb-meta').textContent=`(${Object.keys(S).length} ads scored ${new Date().toLocaleDateString('en-US',{month:'short',day:'numeric'})}${backs?', '+backs+' via fallback':''})`;
 })();
 </script>
 </body></html>
