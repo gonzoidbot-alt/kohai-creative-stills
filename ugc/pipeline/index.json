@@ -57,5 +57,30 @@
   ],
   "seconds": 60.14,
   "spend": 25.12
+ },
+ {
+  "slug": "board-common-enemy",
+  "title": "Kōhai — The Report Can Wait (For You)",
+  "format": "storyboard",
+  "persona": "solo founders and small business owners",
+  "eyebrow": "STORYBOARD STORIES · SOLO FOUNDERS",
+  "script": [
+   "Eleven p.m. Twelve tabs open. Monday's client report: still unwritten.",
+   "Calendar full. The work that actually matters? Pushed to tomorrow. Again.",
+   "Meet Kōhai. Brief it like a colleague.",
+   "AI colleagues plan the work, use your tools, and deliver finished drafts to your Inbox.",
+   "They work overnight, weekends, holidays. Output lands while you're offline.",
+   "No prompts.",
+   "No agent builder.",
+   "No new hire.",
+   "It's in your Gmail.",
+   "In your Slack.",
+   "On your calendar.",
+   "Nothing sensitive goes out without your approval.",
+   "Brief it once.",
+   "Try Kōhai for free today."
+  ],
+  "seconds": 35.43,
+  "spend": 4.0
  }
 ]
