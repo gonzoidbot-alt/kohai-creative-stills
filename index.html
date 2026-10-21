@@ -200,7 +200,9 @@ d.innerHTML=`<div class="cm-h"><b>💬 ${cs.length} comment${cs.length==1?'':'s'
 d.querySelector('.ln').onclick=e=>{navigator.clipboard.writeText(location.origin+location.pathname+'#ad='+id);e.target.textContent='Copied ✓';setTimeout(()=>e.target.textContent='Copy link',1500)};
 f.appendChild(d)});
 const hc=document.getElementById('hasc');hc.onchange=()=>{document.querySelectorAll('figure[data-id]').forEach(f=>{if(hc.checked&&!(+f.dataset.comments))f.classList.add('hide');else if(!hc.checked)f.classList.remove('hide')});if(!hc.checked)document.getElementById('persona').onchange()};
-const m=(window.__h||'').match(/ad=([\w-]+)/);if(m){const f=document.querySelector(`figure[data-id="${m[1]}"]`);if(f){f.scrollIntoView({block:'center'});f.classList.add('flash')}}
+const scrollToAd=(hsh)=>{const m=(hsh||'').match(/ad=([\w-]+)/);if(m){const f=document.querySelector(`figure[data-id="${m[1]}"]`);if(f){f.classList.remove('hide');f.scrollIntoView({block:'center',behavior:'smooth'});f.classList.add('flash');setTimeout(()=>f.classList.remove('flash'),2500);return true}}return false};
+scrollToAd(window.__h||location.hash);
+window.addEventListener('hashchange',()=>scrollToAd(location.hash));
 })();
 </script>
 <script>
