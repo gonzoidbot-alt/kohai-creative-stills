@@ -9150,5 +9150,4373 @@
     "confidence": 0.3
    }
   }
+ },
+ "v-agencyv4": {
+  "score": 56.4,
+  "band": "Average (1–2%)",
+  "risk": 0.2,
+  "fix": "outcome",
+  "backend": "venice-fallback",
+  "scored_at": "2026-10-21 23:35",
+  "answers": {
+   "stop": {
+    "type": "noul",
+    "noul": 0.47
+   },
+   "hook": {
+    "type": "score",
+    "score": 2.21,
+    "legend": {
+     "0": "Scrolled past without registering",
+     "1": "Noticed but kept moving",
+     "2": "Watched most of it",
+     "3": "Watched to the end",
+     "4": "Would share or comment"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.19,
+     "2": 0.41,
+     "3": 0.39,
+     "4": 0.01
+    },
+    "confidence": 0.5
+   },
+   "clarity": {
+    "type": "score",
+    "score": 2.34,
+    "legend": {
+     "0": "Confusing",
+     "1": "Clear after effort",
+     "2": "Clear immediately",
+     "3": "Clear and personally relevant"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.11,
+     "2": 0.43,
+     "3": 0.46
+    },
+    "confidence": 0.35
+   },
+   "brand": {
+    "type": "score",
+    "score": 2.07,
+    "legend": {
+     "0": "No",
+     "1": "Barely",
+     "2": "Probably",
+     "3": "Yes, memorable"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.09,
+     "2": 0.74,
+     "3": 0.17
+    },
+    "confidence": 0.74
+   },
+   "cta": {
+    "type": "score",
+    "score": 2.31,
+    "legend": {
+     "0": "None",
+     "1": "Weak",
+     "2": "Decent",
+     "3": "Strong"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.05,
+     "2": 0.59,
+     "3": 0.36
+    },
+    "confidence": 0.59
+   },
+   "native": {
+    "type": "noul",
+    "noul": 0.14
+   },
+   "risk": {
+    "type": "noul",
+    "noul": 0.2
+   },
+   "next_fix": {
+    "type": "choice",
+    "choice": "outcome",
+    "probabilities": {
+     "hook1": 0.21,
+     "product": 0.1,
+     "outcome": 0.45,
+     "persona": 0.15,
+     "cta": 0.09
+    },
+    "confidence": 0.31
+   }
+  }
+ },
+ "v-ecomv4": {
+  "score": 59.3,
+  "band": "Average (1–2%)",
+  "risk": 0.23,
+  "fix": "outcome",
+  "backend": "venice-fallback",
+  "scored_at": "2026-10-21 23:35",
+  "answers": {
+   "stop": {
+    "type": "noul",
+    "noul": 0.51
+   },
+   "hook": {
+    "type": "score",
+    "score": 2.25,
+    "legend": {
+     "0": "Scrolled past without registering",
+     "1": "Noticed but kept moving",
+     "2": "Watched most of it",
+     "3": "Watched to the end",
+     "4": "Would share or comment"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.14,
+     "2": 0.48,
+     "3": 0.38,
+     "4": 0
+    },
+    "confidence": 0.57
+   },
+   "clarity": {
+    "type": "score",
+    "score": 2.41,
+    "legend": {
+     "0": "Confusing",
+     "1": "Clear after effort",
+     "2": "Clear immediately",
+     "3": "Clear and personally relevant"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.02,
+     "2": 0.56,
+     "3": 0.42
+    },
+    "confidence": 0.56
+   },
+   "brand": {
+    "type": "score",
+    "score": 2.18,
+    "legend": {
+     "0": "No",
+     "1": "Barely",
+     "2": "Probably",
+     "3": "Yes, memorable"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.06,
+     "2": 0.69,
+     "3": 0.25
+    },
+    "confidence": 0.69
+   },
+   "cta": {
+    "type": "score",
+    "score": 2.42,
+    "legend": {
+     "0": "None",
+     "1": "Weak",
+     "2": "Decent",
+     "3": "Strong"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.03,
+     "2": 0.52,
+     "3": 0.45
+    },
+    "confidence": 0.52
+   },
+   "native": {
+    "type": "noul",
+    "noul": 0.2
+   },
+   "risk": {
+    "type": "noul",
+    "noul": 0.23
+   },
+   "next_fix": {
+    "type": "choice",
+    "choice": "outcome",
+    "probabilities": {
+     "hook1": 0.24,
+     "product": 0.17,
+     "outcome": 0.38,
+     "persona": 0.06,
+     "cta": 0.15
+    },
+    "confidence": 0.22
+   }
+  }
+ },
+ "p07v4": {
+  "score": 52.1,
+  "band": "Average (1–2%)",
+  "risk": 0.32,
+  "fix": "hook1",
+  "backend": "venice-fallback",
+  "scored_at": "2026-10-21 23:35",
+  "answers": {
+   "stop": {
+    "type": "noul",
+    "noul": 0.48
+   },
+   "hook": {
+    "type": "score",
+    "score": 1.8,
+    "legend": {
+     "0": "Scrolled past without registering",
+     "1": "Noticed but kept moving",
+     "2": "Watched most of it",
+     "3": "Watched to the end",
+     "4": "Would share or comment"
+    },
+    "probabilities": {
+     "0": 0.01,
+     "1": 0.35,
+     "2": 0.49,
+     "3": 0.15,
+     "4": 0
+    },
+    "confidence": 0.57
+   },
+   "clarity": {
+    "type": "score",
+    "score": 2.4,
+    "legend": {
+     "0": "Confusing",
+     "1": "Clear after effort",
+     "2": "Clear immediately",
+     "3": "Clear and personally relevant"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.06,
+     "2": 0.46,
+     "3": 0.48
+    },
+    "confidence": 0.42
+   },
+   "brand": {
+    "type": "score",
+    "score": 1.7,
+    "legend": {
+     "0": "No",
+     "1": "Barely",
+     "2": "Probably",
+     "3": "Yes, memorable"
+    },
+    "probabilities": {
+     "0": 0.01,
+     "1": 0.32,
+     "2": 0.63,
+     "3": 0.04
+    },
+    "confidence": 0.62
+   },
+   "cta": {
+    "type": "score",
+    "score": 2.21,
+    "legend": {
+     "0": "None",
+     "1": "Weak",
+     "2": "Decent",
+     "3": "Strong"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.07,
+     "2": 0.64,
+     "3": 0.29
+    },
+    "confidence": 0.64
+   },
+   "native": {
+    "type": "noul",
+    "noul": 0.17
+   },
+   "risk": {
+    "type": "noul",
+    "noul": 0.32
+   },
+   "next_fix": {
+    "type": "choice",
+    "choice": "hook1",
+    "probabilities": {
+     "hook1": 0.31,
+     "product": 0.17,
+     "outcome": 0.26,
+     "persona": 0.14,
+     "cta": 0.12
+    },
+    "confidence": 0.14
+   }
+  }
+ },
+ "p12v4": {
+  "score": 49.2,
+  "band": "Weak (<1%)",
+  "risk": 0.12,
+  "fix": "outcome",
+  "backend": "venice-fallback",
+  "scored_at": "2026-10-21 23:35",
+  "answers": {
+   "stop": {
+    "type": "noul",
+    "noul": 0.47
+   },
+   "hook": {
+    "type": "score",
+    "score": 1.65,
+    "legend": {
+     "0": "Scrolled past without registering",
+     "1": "Noticed but kept moving",
+     "2": "Watched most of it",
+     "3": "Watched to the end",
+     "4": "Would share or comment"
+    },
+    "probabilities": {
+     "0": 0.01,
+     "1": 0.45,
+     "2": 0.43,
+     "3": 0.11,
+     "4": 0
+    },
+    "confidence": 0.45
+   },
+   "clarity": {
+    "type": "score",
+    "score": 2.16,
+    "legend": {
+     "0": "Confusing",
+     "1": "Clear after effort",
+     "2": "Clear immediately",
+     "3": "Clear and personally relevant"
+    },
+    "probabilities": {
+     "0": 0.01,
+     "1": 0.15,
+     "2": 0.51,
+     "3": 0.33
+    },
+    "confidence": 0.5
+   },
+   "brand": {
+    "type": "score",
+    "score": 1.78,
+    "legend": {
+     "0": "No",
+     "1": "Barely",
+     "2": "Probably",
+     "3": "Yes, memorable"
+    },
+    "probabilities": {
+     "0": 0.01,
+     "1": 0.27,
+     "2": 0.66,
+     "3": 0.06
+    },
+    "confidence": 0.65
+   },
+   "cta": {
+    "type": "score",
+    "score": 2.14,
+    "legend": {
+     "0": "None",
+     "1": "Weak",
+     "2": "Decent",
+     "3": "Strong"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.09,
+     "2": 0.68,
+     "3": 0.23
+    },
+    "confidence": 0.68
+   },
+   "native": {
+    "type": "noul",
+    "noul": 0.15
+   },
+   "risk": {
+    "type": "noul",
+    "noul": 0.12
+   },
+   "next_fix": {
+    "type": "choice",
+    "choice": "outcome",
+    "probabilities": {
+     "hook1": 0.23,
+     "product": 0.16,
+     "outcome": 0.43,
+     "persona": 0.07,
+     "cta": 0.11
+    },
+    "confidence": 0.29
+   }
+  }
+ },
+ "p18v4": {
+  "score": 61.1,
+  "band": "Average (1–2%)",
+  "risk": 0.47,
+  "fix": "outcome",
+  "backend": "venice-fallback",
+  "scored_at": "2026-10-21 23:35",
+  "answers": {
+   "stop": {
+    "type": "noul",
+    "noul": 0.57
+   },
+   "hook": {
+    "type": "score",
+    "score": 2.3,
+    "legend": {
+     "0": "Scrolled past without registering",
+     "1": "Noticed but kept moving",
+     "2": "Watched most of it",
+     "3": "Watched to the end",
+     "4": "Would share or comment"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.13,
+     "2": 0.43,
+     "3": 0.44,
+     "4": 0
+    },
+    "confidence": 0.43
+   },
+   "clarity": {
+    "type": "score",
+    "score": 2.53,
+    "legend": {
+     "0": "Confusing",
+     "1": "Clear after effort",
+     "2": "Clear immediately",
+     "3": "Clear and personally relevant"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.04,
+     "2": 0.38,
+     "3": 0.58
+    },
+    "confidence": 0.54
+   },
+   "brand": {
+    "type": "score",
+    "score": 1.97,
+    "legend": {
+     "0": "No",
+     "1": "Barely",
+     "2": "Probably",
+     "3": "Yes, memorable"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.13,
+     "2": 0.77,
+     "3": 0.1
+    },
+    "confidence": 0.77
+   },
+   "cta": {
+    "type": "score",
+    "score": 2.36,
+    "legend": {
+     "0": "None",
+     "1": "Weak",
+     "2": "Decent",
+     "3": "Strong"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.04,
+     "2": 0.56,
+     "3": 0.4
+    },
+    "confidence": 0.56
+   },
+   "native": {
+    "type": "noul",
+    "noul": 0.25
+   },
+   "risk": {
+    "type": "noul",
+    "noul": 0.47
+   },
+   "next_fix": {
+    "type": "choice",
+    "choice": "outcome",
+    "probabilities": {
+     "hook1": 0.34,
+     "product": 0.04,
+     "outcome": 0.4,
+     "persona": 0.07,
+     "cta": 0.15
+    },
+    "confidence": 0.25
+   }
+  }
+ },
+ "p19v4": {
+  "score": 50.7,
+  "band": "Average (1–2%)",
+  "risk": 0.34,
+  "fix": "outcome",
+  "backend": "venice-fallback",
+  "scored_at": "2026-10-21 23:35",
+  "answers": {
+   "stop": {
+    "type": "noul",
+    "noul": 0.5
+   },
+   "hook": {
+    "type": "score",
+    "score": 1.92,
+    "legend": {
+     "0": "Scrolled past without registering",
+     "1": "Noticed but kept moving",
+     "2": "Watched most of it",
+     "3": "Watched to the end",
+     "4": "Would share or comment"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.31,
+     "2": 0.46,
+     "3": 0.23,
+     "4": 0
+    },
+    "confidence": 0.55
+   },
+   "clarity": {
+    "type": "score",
+    "score": 1.89,
+    "legend": {
+     "0": "Confusing",
+     "1": "Clear after effort",
+     "2": "Clear immediately",
+     "3": "Clear and personally relevant"
+    },
+    "probabilities": {
+     "0": 0.01,
+     "1": 0.34,
+     "2": 0.4,
+     "3": 0.25
+    },
+    "confidence": 0.39
+   },
+   "brand": {
+    "type": "score",
+    "score": 1.84,
+    "legend": {
+     "0": "No",
+     "1": "Barely",
+     "2": "Probably",
+     "3": "Yes, memorable"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.24,
+     "2": 0.68,
+     "3": 0.08
+    },
+    "confidence": 0.68
+   },
+   "cta": {
+    "type": "score",
+    "score": 1.99,
+    "legend": {
+     "0": "None",
+     "1": "Weak",
+     "2": "Decent",
+     "3": "Strong"
+    },
+    "probabilities": {
+     "0": 0.01,
+     "1": 0.2,
+     "2": 0.58,
+     "3": 0.21
+    },
+    "confidence": 0.57
+   },
+   "native": {
+    "type": "noul",
+    "noul": 0.17
+   },
+   "risk": {
+    "type": "noul",
+    "noul": 0.34
+   },
+   "next_fix": {
+    "type": "choice",
+    "choice": "outcome",
+    "probabilities": {
+     "hook1": 0.28,
+     "product": 0.06,
+     "outcome": 0.46,
+     "persona": 0.05,
+     "cta": 0.15
+    },
+    "confidence": 0.33
+   }
+  }
+ },
+ "r05v4": {
+  "score": 51.9,
+  "band": "Average (1–2%)",
+  "risk": 0.79,
+  "fix": "outcome",
+  "backend": "venice-fallback",
+  "scored_at": "2026-10-21 23:35",
+  "answers": {
+   "stop": {
+    "type": "noul",
+    "noul": 0.5
+   },
+   "hook": {
+    "type": "score",
+    "score": 2.08,
+    "legend": {
+     "0": "Scrolled past without registering",
+     "1": "Noticed but kept moving",
+     "2": "Watched most of it",
+     "3": "Watched to the end",
+     "4": "Would share or comment"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.21,
+     "2": 0.5,
+     "3": 0.29,
+     "4": 0
+    },
+    "confidence": 0.58
+   },
+   "clarity": {
+    "type": "score",
+    "score": 1.4,
+    "legend": {
+     "0": "Confusing",
+     "1": "Clear after effort",
+     "2": "Clear immediately",
+     "3": "Clear and personally relevant"
+    },
+    "probabilities": {
+     "0": 0.06,
+     "1": 0.57,
+     "2": 0.27,
+     "3": 0.1
+    },
+    "confidence": 0.47
+   },
+   "brand": {
+    "type": "score",
+    "score": 2.27,
+    "legend": {
+     "0": "No",
+     "1": "Barely",
+     "2": "Probably",
+     "3": "Yes, memorable"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.06,
+     "2": 0.61,
+     "3": 0.33
+    },
+    "confidence": 0.61
+   },
+   "cta": {
+    "type": "score",
+    "score": 2.27,
+    "legend": {
+     "0": "None",
+     "1": "Weak",
+     "2": "Decent",
+     "3": "Strong"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.07,
+     "2": 0.58,
+     "3": 0.35
+    },
+    "confidence": 0.58
+   },
+   "native": {
+    "type": "noul",
+    "noul": 0.16
+   },
+   "risk": {
+    "type": "noul",
+    "noul": 0.79
+   },
+   "next_fix": {
+    "type": "choice",
+    "choice": "outcome",
+    "probabilities": {
+     "hook1": 0.16,
+     "product": 0.14,
+     "outcome": 0.5,
+     "persona": 0.04,
+     "cta": 0.16
+    },
+    "confidence": 0.37
+   }
+  }
+ },
+ "u05v4": {
+  "score": 58.2,
+  "band": "Average (1–2%)",
+  "risk": 0.37,
+  "fix": "outcome",
+  "backend": "venice-fallback",
+  "scored_at": "2026-10-21 23:35",
+  "answers": {
+   "stop": {
+    "type": "noul",
+    "noul": 0.55
+   },
+   "hook": {
+    "type": "score",
+    "score": 2.22,
+    "legend": {
+     "0": "Scrolled past without registering",
+     "1": "Noticed but kept moving",
+     "2": "Watched most of it",
+     "3": "Watched to the end",
+     "4": "Would share or comment"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.15,
+     "2": 0.48,
+     "3": 0.37,
+     "4": 0
+    },
+    "confidence": 0.57
+   },
+   "clarity": {
+    "type": "score",
+    "score": 2.45,
+    "legend": {
+     "0": "Confusing",
+     "1": "Clear after effort",
+     "2": "Clear immediately",
+     "3": "Clear and personally relevant"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.11,
+     "2": 0.32,
+     "3": 0.57
+    },
+    "confidence": 0.46
+   },
+   "brand": {
+    "type": "score",
+    "score": 1.94,
+    "legend": {
+     "0": "No",
+     "1": "Barely",
+     "2": "Probably",
+     "3": "Yes, memorable"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.17,
+     "2": 0.71,
+     "3": 0.12
+    },
+    "confidence": 0.71
+   },
+   "cta": {
+    "type": "score",
+    "score": 2.16,
+    "legend": {
+     "0": "None",
+     "1": "Weak",
+     "2": "Decent",
+     "3": "Strong"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.1,
+     "2": 0.63,
+     "3": 0.27
+    },
+    "confidence": 0.63
+   },
+   "native": {
+    "type": "noul",
+    "noul": 0.19
+   },
+   "risk": {
+    "type": "noul",
+    "noul": 0.37
+   },
+   "next_fix": {
+    "type": "choice",
+    "choice": "outcome",
+    "probabilities": {
+     "hook1": 0.25,
+     "product": 0.2,
+     "outcome": 0.33,
+     "persona": 0.12,
+     "cta": 0.1
+    },
+    "confidence": 0.16
+   }
+  }
+ },
+ "v-estimatorv4": {
+  "score": 56.3,
+  "band": "Average (1–2%)",
+  "risk": 0.38,
+  "fix": "outcome",
+  "backend": "venice-fallback",
+  "scored_at": "2026-10-21 23:35",
+  "answers": {
+   "stop": {
+    "type": "noul",
+    "noul": 0.47
+   },
+   "hook": {
+    "type": "score",
+    "score": 2.06,
+    "legend": {
+     "0": "Scrolled past without registering",
+     "1": "Noticed but kept moving",
+     "2": "Watched most of it",
+     "3": "Watched to the end",
+     "4": "Would share or comment"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.25,
+     "2": 0.44,
+     "3": 0.3,
+     "4": 0.01
+    },
+    "confidence": 0.53
+   },
+   "clarity": {
+    "type": "score",
+    "score": 2.49,
+    "legend": {
+     "0": "Confusing",
+     "1": "Clear after effort",
+     "2": "Clear immediately",
+     "3": "Clear and personally relevant"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.09,
+     "2": 0.32,
+     "3": 0.59
+    },
+    "confidence": 0.5
+   },
+   "brand": {
+    "type": "score",
+    "score": 2.22,
+    "legend": {
+     "0": "No",
+     "1": "Barely",
+     "2": "Probably",
+     "3": "Yes, memorable"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.05,
+     "2": 0.68,
+     "3": 0.27
+    },
+    "confidence": 0.68
+   },
+   "cta": {
+    "type": "score",
+    "score": 2.2,
+    "legend": {
+     "0": "None",
+     "1": "Weak",
+     "2": "Decent",
+     "3": "Strong"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.07,
+     "2": 0.66,
+     "3": 0.27
+    },
+    "confidence": 0.66
+   },
+   "native": {
+    "type": "noul",
+    "noul": 0.17
+   },
+   "risk": {
+    "type": "noul",
+    "noul": 0.38
+   },
+   "next_fix": {
+    "type": "choice",
+    "choice": "outcome",
+    "probabilities": {
+     "hook1": 0.17,
+     "product": 0.08,
+     "outcome": 0.62,
+     "persona": 0.06,
+     "cta": 0.07
+    },
+    "confidence": 0.52
+   }
+  }
+ },
+ "v-superintendentv4": {
+  "score": 57.8,
+  "band": "Average (1–2%)",
+  "risk": 0.17,
+  "fix": "outcome",
+  "backend": "venice-fallback",
+  "scored_at": "2026-10-21 23:35",
+  "answers": {
+   "stop": {
+    "type": "noul",
+    "noul": 0.48
+   },
+   "hook": {
+    "type": "score",
+    "score": 2.15,
+    "legend": {
+     "0": "Scrolled past without registering",
+     "1": "Noticed but kept moving",
+     "2": "Watched most of it",
+     "3": "Watched to the end",
+     "4": "Would share or comment"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.21,
+     "2": 0.43,
+     "3": 0.35,
+     "4": 0.01
+    },
+    "confidence": 0.52
+   },
+   "clarity": {
+    "type": "score",
+    "score": 2.57,
+    "legend": {
+     "0": "Confusing",
+     "1": "Clear after effort",
+     "2": "Clear immediately",
+     "3": "Clear and personally relevant"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.07,
+     "2": 0.28,
+     "3": 0.65
+    },
+    "confidence": 0.58
+   },
+   "brand": {
+    "type": "score",
+    "score": 2.22,
+    "legend": {
+     "0": "No",
+     "1": "Barely",
+     "2": "Probably",
+     "3": "Yes, memorable"
+    },
+    "probabilities": {
+     "0": 0.01,
+     "1": 0.06,
+     "2": 0.64,
+     "3": 0.29
+    },
+    "confidence": 0.63
+   },
+   "cta": {
+    "type": "score",
+    "score": 2.13,
+    "legend": {
+     "0": "None",
+     "1": "Weak",
+     "2": "Decent",
+     "3": "Strong"
+    },
+    "probabilities": {
+     "0": 0.01,
+     "1": 0.1,
+     "2": 0.64,
+     "3": 0.25
+    },
+    "confidence": 0.63
+   },
+   "native": {
+    "type": "noul",
+    "noul": 0.2
+   },
+   "risk": {
+    "type": "noul",
+    "noul": 0.17
+   },
+   "next_fix": {
+    "type": "choice",
+    "choice": "outcome",
+    "probabilities": {
+     "hook1": 0.27,
+     "product": 0.13,
+     "outcome": 0.39,
+     "persona": 0.05,
+     "cta": 0.16
+    },
+    "confidence": 0.24
+   }
+  }
+ },
+ "p01v4": {
+  "score": 57.8,
+  "band": "Average (1–2%)",
+  "risk": 0.38,
+  "fix": "hook1",
+  "backend": "venice-fallback",
+  "scored_at": "2026-10-21 23:35",
+  "answers": {
+   "stop": {
+    "type": "noul",
+    "noul": 0.5
+   },
+   "hook": {
+    "type": "score",
+    "score": 2.22,
+    "legend": {
+     "0": "Scrolled past without registering",
+     "1": "Noticed but kept moving",
+     "2": "Watched most of it",
+     "3": "Watched to the end",
+     "4": "Would share or comment"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.17,
+     "2": 0.44,
+     "3": 0.38,
+     "4": 0.01
+    },
+    "confidence": 0.52
+   },
+   "clarity": {
+    "type": "score",
+    "score": 2.36,
+    "legend": {
+     "0": "Confusing",
+     "1": "Clear after effort",
+     "2": "Clear immediately",
+     "3": "Clear and personally relevant"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.08,
+     "2": 0.47,
+     "3": 0.45
+    },
+    "confidence": 0.47
+   },
+   "brand": {
+    "type": "score",
+    "score": 2.06,
+    "legend": {
+     "0": "No",
+     "1": "Barely",
+     "2": "Probably",
+     "3": "Yes, memorable"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.1,
+     "2": 0.74,
+     "3": 0.16
+    },
+    "confidence": 0.74
+   },
+   "cta": {
+    "type": "score",
+    "score": 2.34,
+    "legend": {
+     "0": "None",
+     "1": "Weak",
+     "2": "Decent",
+     "3": "Strong"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.08,
+     "2": 0.49,
+     "3": 0.43
+    },
+    "confidence": 0.49
+   },
+   "native": {
+    "type": "noul",
+    "noul": 0.19
+   },
+   "risk": {
+    "type": "noul",
+    "noul": 0.38
+   },
+   "next_fix": {
+    "type": "choice",
+    "choice": "hook1",
+    "probabilities": {
+     "hook1": 0.33,
+     "product": 0.21,
+     "outcome": 0.26,
+     "persona": 0.09,
+     "cta": 0.11
+    },
+    "confidence": 0.16
+   }
+  }
+ },
+ "p02v4": {
+  "score": 58.6,
+  "band": "Average (1–2%)",
+  "risk": 0.23,
+  "fix": "outcome",
+  "backend": "venice-fallback",
+  "scored_at": "2026-10-21 23:35",
+  "answers": {
+   "stop": {
+    "type": "noul",
+    "noul": 0.61
+   },
+   "hook": {
+    "type": "score",
+    "score": 1.96,
+    "legend": {
+     "0": "Scrolled past without registering",
+     "1": "Noticed but kept moving",
+     "2": "Watched most of it",
+     "3": "Watched to the end",
+     "4": "Would share or comment"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.25,
+     "2": 0.53,
+     "3": 0.22,
+     "4": 0
+    },
+    "confidence": 0.61
+   },
+   "clarity": {
+    "type": "score",
+    "score": 2.55,
+    "legend": {
+     "0": "Confusing",
+     "1": "Clear after effort",
+     "2": "Clear immediately",
+     "3": "Clear and personally relevant"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.05,
+     "2": 0.35,
+     "3": 0.6
+    },
+    "confidence": 0.55
+   },
+   "brand": {
+    "type": "score",
+    "score": 2.02,
+    "legend": {
+     "0": "No",
+     "1": "Barely",
+     "2": "Probably",
+     "3": "Yes, memorable"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.1,
+     "2": 0.77,
+     "3": 0.13
+    },
+    "confidence": 0.77
+   },
+   "cta": {
+    "type": "score",
+    "score": 2.27,
+    "legend": {
+     "0": "None",
+     "1": "Weak",
+     "2": "Decent",
+     "3": "Strong"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.06,
+     "2": 0.61,
+     "3": 0.33
+    },
+    "confidence": 0.61
+   },
+   "native": {
+    "type": "noul",
+    "noul": 0.22
+   },
+   "risk": {
+    "type": "noul",
+    "noul": 0.23
+   },
+   "next_fix": {
+    "type": "choice",
+    "choice": "outcome",
+    "probabilities": {
+     "hook1": 0.24,
+     "product": 0.05,
+     "outcome": 0.47000000000000003,
+     "persona": 0.07,
+     "cta": 0.17
+    },
+    "confidence": 0.34
+   }
+  }
+ },
+ "p03v4": {
+  "score": 61.1,
+  "band": "Average (1–2%)",
+  "risk": 0.34,
+  "fix": "outcome",
+  "backend": "venice-fallback",
+  "scored_at": "2026-10-21 23:35",
+  "answers": {
+   "stop": {
+    "type": "noul",
+    "noul": 0.62
+   },
+   "hook": {
+    "type": "score",
+    "score": 2.37,
+    "legend": {
+     "0": "Scrolled past without registering",
+     "1": "Noticed but kept moving",
+     "2": "Watched most of it",
+     "3": "Watched to the end",
+     "4": "Would share or comment"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.12,
+     "2": 0.41,
+     "3": 0.46,
+     "4": 0.01
+    },
+    "confidence": 0.45
+   },
+   "clarity": {
+    "type": "score",
+    "score": 2.15,
+    "legend": {
+     "0": "Confusing",
+     "1": "Clear after effort",
+     "2": "Clear immediately",
+     "3": "Clear and personally relevant"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.24,
+     "2": 0.35,
+     "3": 0.41000000000000003
+    },
+    "confidence": 0.17
+   },
+   "brand": {
+    "type": "score",
+    "score": 2.2,
+    "legend": {
+     "0": "No",
+     "1": "Barely",
+     "2": "Probably",
+     "3": "Yes, memorable"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.06,
+     "2": 0.68,
+     "3": 0.26
+    },
+    "confidence": 0.68
+   },
+   "cta": {
+    "type": "score",
+    "score": 2.29,
+    "legend": {
+     "0": "None",
+     "1": "Weak",
+     "2": "Decent",
+     "3": "Strong"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.06,
+     "2": 0.58,
+     "3": 0.36
+    },
+    "confidence": 0.58
+   },
+   "native": {
+    "type": "noul",
+    "noul": 0.22
+   },
+   "risk": {
+    "type": "noul",
+    "noul": 0.34
+   },
+   "next_fix": {
+    "type": "choice",
+    "choice": "outcome",
+    "probabilities": {
+     "hook1": 0.33,
+     "product": 0.12,
+     "outcome": 0.34,
+     "persona": 0.1,
+     "cta": 0.11
+    },
+    "confidence": 0.18
+   }
+  }
+ },
+ "p04v4": {
+  "score": 63.1,
+  "band": "Average (1–2%)",
+  "risk": 0.25,
+  "fix": "outcome",
+  "backend": "venice-fallback",
+  "scored_at": "2026-10-21 23:35",
+  "answers": {
+   "stop": {
+    "type": "noul",
+    "noul": 0.63
+   },
+   "hook": {
+    "type": "score",
+    "score": 2.45,
+    "legend": {
+     "0": "Scrolled past without registering",
+     "1": "Noticed but kept moving",
+     "2": "Watched most of it",
+     "3": "Watched to the end",
+     "4": "Would share or comment"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.09,
+     "2": 0.37,
+     "3": 0.53,
+     "4": 0.01
+    },
+    "confidence": 0.53
+   },
+   "clarity": {
+    "type": "score",
+    "score": 2.51,
+    "legend": {
+     "0": "Confusing",
+     "1": "Clear after effort",
+     "2": "Clear immediately",
+     "3": "Clear and personally relevant"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.08,
+     "2": 0.32,
+     "3": 0.6
+    },
+    "confidence": 0.52
+   },
+   "brand": {
+    "type": "score",
+    "score": 1.83,
+    "legend": {
+     "0": "No",
+     "1": "Barely",
+     "2": "Probably",
+     "3": "Yes, memorable"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.24,
+     "2": 0.68,
+     "3": 0.08
+    },
+    "confidence": 0.68
+   },
+   "cta": {
+    "type": "score",
+    "score": 2.54,
+    "legend": {
+     "0": "None",
+     "1": "Weak",
+     "2": "Decent",
+     "3": "Strong"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.02,
+     "2": 0.41,
+     "3": 0.57
+    },
+    "confidence": 0.55
+   },
+   "native": {
+    "type": "noul",
+    "noul": 0.19
+   },
+   "risk": {
+    "type": "noul",
+    "noul": 0.25
+   },
+   "next_fix": {
+    "type": "choice",
+    "choice": "outcome",
+    "probabilities": {
+     "hook1": 0.23,
+     "product": 0.18,
+     "outcome": 0.3,
+     "persona": 0.24,
+     "cta": 0.05
+    },
+    "confidence": 0.12
+   }
+  }
+ },
+ "p05v4": {
+  "score": 59.9,
+  "band": "Average (1–2%)",
+  "risk": 0.21,
+  "fix": "outcome",
+  "backend": "venice-fallback",
+  "scored_at": "2026-10-21 23:35",
+  "answers": {
+   "stop": {
+    "type": "noul",
+    "noul": 0.61
+   },
+   "hook": {
+    "type": "score",
+    "score": 1.93,
+    "legend": {
+     "0": "Scrolled past without registering",
+     "1": "Noticed but kept moving",
+     "2": "Watched most of it",
+     "3": "Watched to the end",
+     "4": "Would share or comment"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.29,
+     "2": 0.49,
+     "3": 0.22,
+     "4": 0
+    },
+    "confidence": 0.57
+   },
+   "clarity": {
+    "type": "score",
+    "score": 2.85,
+    "legend": {
+     "0": "Confusing",
+     "1": "Clear after effort",
+     "2": "Clear immediately",
+     "3": "Clear and personally relevant"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0,
+     "2": 0.14,
+     "3": 0.86
+    },
+    "confidence": 0.86
+   },
+   "brand": {
+    "type": "score",
+    "score": 2,
+    "legend": {
+     "0": "No",
+     "1": "Barely",
+     "2": "Probably",
+     "3": "Yes, memorable"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.09,
+     "2": 0.81,
+     "3": 0.1
+    },
+    "confidence": 0.81
+   },
+   "cta": {
+    "type": "score",
+    "score": 2.25,
+    "legend": {
+     "0": "None",
+     "1": "Weak",
+     "2": "Decent",
+     "3": "Strong"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.04,
+     "2": 0.67,
+     "3": 0.29
+    },
+    "confidence": 0.67
+   },
+   "native": {
+    "type": "noul",
+    "noul": 0.24
+   },
+   "risk": {
+    "type": "noul",
+    "noul": 0.21
+   },
+   "next_fix": {
+    "type": "choice",
+    "choice": "outcome",
+    "probabilities": {
+     "hook1": 0.21,
+     "product": 0.17,
+     "outcome": 0.44,
+     "persona": 0.02,
+     "cta": 0.16
+    },
+    "confidence": 0.3
+   }
+  }
+ },
+ "p06v4": {
+  "score": 62.3,
+  "band": "Average (1–2%)",
+  "risk": 0.33,
+  "fix": "outcome",
+  "backend": "venice-fallback",
+  "scored_at": "2026-10-21 23:35",
+  "answers": {
+   "stop": {
+    "type": "noul",
+    "noul": 0.57
+   },
+   "hook": {
+    "type": "score",
+    "score": 2.36,
+    "legend": {
+     "0": "Scrolled past without registering",
+     "1": "Noticed but kept moving",
+     "2": "Watched most of it",
+     "3": "Watched to the end",
+     "4": "Would share or comment"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.13,
+     "2": 0.39,
+     "3": 0.47,
+     "4": 0.01
+    },
+    "confidence": 0.45
+   },
+   "clarity": {
+    "type": "score",
+    "score": 2.75,
+    "legend": {
+     "0": "Confusing",
+     "1": "Clear after effort",
+     "2": "Clear immediately",
+     "3": "Clear and personally relevant"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.01,
+     "2": 0.23,
+     "3": 0.76
+    },
+    "confidence": 0.75
+   },
+   "brand": {
+    "type": "score",
+    "score": 1.97,
+    "legend": {
+     "0": "No",
+     "1": "Barely",
+     "2": "Probably",
+     "3": "Yes, memorable"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.13,
+     "2": 0.76,
+     "3": 0.11
+    },
+    "confidence": 0.76
+   },
+   "cta": {
+    "type": "score",
+    "score": 2.52,
+    "legend": {
+     "0": "None",
+     "1": "Weak",
+     "2": "Decent",
+     "3": "Strong"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.02,
+     "2": 0.43,
+     "3": 0.55
+    },
+    "confidence": 0.53
+   },
+   "native": {
+    "type": "noul",
+    "noul": 0.15
+   },
+   "risk": {
+    "type": "noul",
+    "noul": 0.33
+   },
+   "next_fix": {
+    "type": "choice",
+    "choice": "outcome",
+    "probabilities": {
+     "hook1": 0.29,
+     "product": 0.08,
+     "outcome": 0.42,
+     "persona": 0.06,
+     "cta": 0.15
+    },
+    "confidence": 0.27
+   }
+  }
+ },
+ "p08v4": {
+  "score": 59.5,
+  "band": "Average (1–2%)",
+  "risk": 0.65,
+  "fix": "outcome",
+  "backend": "venice-fallback",
+  "scored_at": "2026-10-21 23:35",
+  "answers": {
+   "stop": {
+    "type": "noul",
+    "noul": 0.54
+   },
+   "hook": {
+    "type": "score",
+    "score": 2.27,
+    "legend": {
+     "0": "Scrolled past without registering",
+     "1": "Noticed but kept moving",
+     "2": "Watched most of it",
+     "3": "Watched to the end",
+     "4": "Would share or comment"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.13,
+     "2": 0.48,
+     "3": 0.39,
+     "4": 0
+    },
+    "confidence": 0.57
+   },
+   "clarity": {
+    "type": "score",
+    "score": 2.49,
+    "legend": {
+     "0": "Confusing",
+     "1": "Clear after effort",
+     "2": "Clear immediately",
+     "3": "Clear and personally relevant"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.05,
+     "2": 0.4,
+     "3": 0.55
+    },
+    "confidence": 0.5
+   },
+   "brand": {
+    "type": "score",
+    "score": 1.87,
+    "legend": {
+     "0": "No",
+     "1": "Barely",
+     "2": "Probably",
+     "3": "Yes, memorable"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.21,
+     "2": 0.69,
+     "3": 0.1
+    },
+    "confidence": 0.69
+   },
+   "cta": {
+    "type": "score",
+    "score": 2.44,
+    "legend": {
+     "0": "None",
+     "1": "Weak",
+     "2": "Decent",
+     "3": "Strong"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.03,
+     "2": 0.5,
+     "3": 0.47
+    },
+    "confidence": 0.5
+   },
+   "native": {
+    "type": "noul",
+    "noul": 0.2
+   },
+   "risk": {
+    "type": "noul",
+    "noul": 0.65
+   },
+   "next_fix": {
+    "type": "choice",
+    "choice": "outcome",
+    "probabilities": {
+     "hook1": 0.24,
+     "product": 0.2,
+     "outcome": 0.38,
+     "persona": 0.08,
+     "cta": 0.1
+    },
+    "confidence": 0.22
+   }
+  }
+ },
+ "p09v4": {
+  "score": 60.9,
+  "band": "Average (1–2%)",
+  "risk": 0.25,
+  "fix": "outcome",
+  "backend": "venice-fallback",
+  "scored_at": "2026-10-21 23:35",
+  "answers": {
+   "stop": {
+    "type": "noul",
+    "noul": 0.62
+   },
+   "hook": {
+    "type": "score",
+    "score": 2.23,
+    "legend": {
+     "0": "Scrolled past without registering",
+     "1": "Noticed but kept moving",
+     "2": "Watched most of it",
+     "3": "Watched to the end",
+     "4": "Would share or comment"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.15,
+     "2": 0.47,
+     "3": 0.37,
+     "4": 0.01
+    },
+    "confidence": 0.55
+   },
+   "clarity": {
+    "type": "score",
+    "score": 2.37,
+    "legend": {
+     "0": "Confusing",
+     "1": "Clear after effort",
+     "2": "Clear immediately",
+     "3": "Clear and personally relevant"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.14,
+     "2": 0.34,
+     "3": 0.52
+    },
+    "confidence": 0.38
+   },
+   "brand": {
+    "type": "score",
+    "score": 1.97,
+    "legend": {
+     "0": "No",
+     "1": "Barely",
+     "2": "Probably",
+     "3": "Yes, memorable"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.15,
+     "2": 0.72,
+     "3": 0.13
+    },
+    "confidence": 0.72
+   },
+   "cta": {
+    "type": "score",
+    "score": 2.44,
+    "legend": {
+     "0": "None",
+     "1": "Weak",
+     "2": "Decent",
+     "3": "Strong"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.04,
+     "2": 0.48,
+     "3": 0.48
+    },
+    "confidence": 0.48
+   },
+   "native": {
+    "type": "noul",
+    "noul": 0.24
+   },
+   "risk": {
+    "type": "noul",
+    "noul": 0.25
+   },
+   "next_fix": {
+    "type": "choice",
+    "choice": "outcome",
+    "probabilities": {
+     "hook1": 0.25,
+     "product": 0.09,
+     "outcome": 0.43,
+     "persona": 0.09,
+     "cta": 0.14
+    },
+    "confidence": 0.29
+   }
+  }
+ },
+ "p10v4": {
+  "score": 56.3,
+  "band": "Average (1–2%)",
+  "risk": 0.2,
+  "fix": "outcome",
+  "backend": "venice-fallback",
+  "scored_at": "2026-10-21 23:35",
+  "answers": {
+   "stop": {
+    "type": "noul",
+    "noul": 0.53
+   },
+   "hook": {
+    "type": "score",
+    "score": 1.95,
+    "legend": {
+     "0": "Scrolled past without registering",
+     "1": "Noticed but kept moving",
+     "2": "Watched most of it",
+     "3": "Watched to the end",
+     "4": "Would share or comment"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.28,
+     "2": 0.5,
+     "3": 0.22,
+     "4": 0
+    },
+    "confidence": 0.58
+   },
+   "clarity": {
+    "type": "score",
+    "score": 2.67,
+    "legend": {
+     "0": "Confusing",
+     "1": "Clear after effort",
+     "2": "Clear immediately",
+     "3": "Clear and personally relevant"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.05,
+     "2": 0.22,
+     "3": 0.73
+    },
+    "confidence": 0.68
+   },
+   "brand": {
+    "type": "score",
+    "score": 1.88,
+    "legend": {
+     "0": "No",
+     "1": "Barely",
+     "2": "Probably",
+     "3": "Yes, memorable"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.19,
+     "2": 0.73,
+     "3": 0.08
+    },
+    "confidence": 0.73
+   },
+   "cta": {
+    "type": "score",
+    "score": 2.01,
+    "legend": {
+     "0": "None",
+     "1": "Weak",
+     "2": "Decent",
+     "3": "Strong"
+    },
+    "probabilities": {
+     "0": 0.01,
+     "1": 0.15,
+     "2": 0.66,
+     "3": 0.18
+    },
+    "confidence": 0.65
+   },
+   "native": {
+    "type": "noul",
+    "noul": 0.23
+   },
+   "risk": {
+    "type": "noul",
+    "noul": 0.2
+   },
+   "next_fix": {
+    "type": "choice",
+    "choice": "outcome",
+    "probabilities": {
+     "hook1": 0.26,
+     "product": 0.15,
+     "outcome": 0.35,
+     "persona": 0.09,
+     "cta": 0.15
+    },
+    "confidence": 0.19
+   }
+  }
+ },
+ "p11v4": {
+  "score": 59.3,
+  "band": "Average (1–2%)",
+  "risk": 0.22,
+  "fix": "outcome",
+  "backend": "venice-fallback",
+  "scored_at": "2026-10-21 23:35",
+  "answers": {
+   "stop": {
+    "type": "noul",
+    "noul": 0.62
+   },
+   "hook": {
+    "type": "score",
+    "score": 2.08,
+    "legend": {
+     "0": "Scrolled past without registering",
+     "1": "Noticed but kept moving",
+     "2": "Watched most of it",
+     "3": "Watched to the end",
+     "4": "Would share or comment"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.21,
+     "2": 0.49,
+     "3": 0.3,
+     "4": 0
+    },
+    "confidence": 0.57
+   },
+   "clarity": {
+    "type": "score",
+    "score": 2.49,
+    "legend": {
+     "0": "Confusing",
+     "1": "Clear after effort",
+     "2": "Clear immediately",
+     "3": "Clear and personally relevant"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.06,
+     "2": 0.38,
+     "3": 0.56
+    },
+    "confidence": 0.5
+   },
+   "brand": {
+    "type": "score",
+    "score": 1.95,
+    "legend": {
+     "0": "No",
+     "1": "Barely",
+     "2": "Probably",
+     "3": "Yes, memorable"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.16,
+     "2": 0.73,
+     "3": 0.11
+    },
+    "confidence": 0.73
+   },
+   "cta": {
+    "type": "score",
+    "score": 2.36,
+    "legend": {
+     "0": "None",
+     "1": "Weak",
+     "2": "Decent",
+     "3": "Strong"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.04,
+     "2": 0.56,
+     "3": 0.4
+    },
+    "confidence": 0.56
+   },
+   "native": {
+    "type": "noul",
+    "noul": 0.19
+   },
+   "risk": {
+    "type": "noul",
+    "noul": 0.22
+   },
+   "next_fix": {
+    "type": "choice",
+    "choice": "outcome",
+    "probabilities": {
+     "hook1": 0.25,
+     "product": 0.17,
+     "outcome": 0.43,
+     "persona": 0.04,
+     "cta": 0.11
+    },
+    "confidence": 0.29
+   }
+  }
+ },
+ "p13v4": {
+  "score": 56.0,
+  "band": "Average (1–2%)",
+  "risk": 0.25,
+  "fix": "outcome",
+  "backend": "venice-fallback",
+  "scored_at": "2026-10-21 23:35",
+  "answers": {
+   "stop": {
+    "type": "noul",
+    "noul": 0.6
+   },
+   "hook": {
+    "type": "score",
+    "score": 1.94,
+    "legend": {
+     "0": "Scrolled past without registering",
+     "1": "Noticed but kept moving",
+     "2": "Watched most of it",
+     "3": "Watched to the end",
+     "4": "Would share or comment"
+    },
+    "probabilities": {
+     "0": 0.01,
+     "1": 0.27,
+     "2": 0.5,
+     "3": 0.22,
+     "4": 0
+    },
+    "confidence": 0.57
+   },
+   "clarity": {
+    "type": "score",
+    "score": 2.37,
+    "legend": {
+     "0": "Confusing",
+     "1": "Clear after effort",
+     "2": "Clear immediately",
+     "3": "Clear and personally relevant"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.1,
+     "2": 0.41,
+     "3": 0.49
+    },
+    "confidence": 0.39
+   },
+   "brand": {
+    "type": "score",
+    "score": 1.73,
+    "legend": {
+     "0": "No",
+     "1": "Barely",
+     "2": "Probably",
+     "3": "Yes, memorable"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.31,
+     "2": 0.65,
+     "3": 0.04
+    },
+    "confidence": 0.65
+   },
+   "cta": {
+    "type": "score",
+    "score": 2.25,
+    "legend": {
+     "0": "None",
+     "1": "Weak",
+     "2": "Decent",
+     "3": "Strong"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.06,
+     "2": 0.62,
+     "3": 0.32
+    },
+    "confidence": 0.62
+   },
+   "native": {
+    "type": "noul",
+    "noul": 0.19
+   },
+   "risk": {
+    "type": "noul",
+    "noul": 0.25
+   },
+   "next_fix": {
+    "type": "choice",
+    "choice": "outcome",
+    "probabilities": {
+     "hook1": 0.3,
+     "product": 0.14,
+     "outcome": 0.35,
+     "persona": 0.06,
+     "cta": 0.15
+    },
+    "confidence": 0.19
+   }
+  }
+ },
+ "p14v4": {
+  "score": 64.1,
+  "band": "Average (1–2%)",
+  "risk": 0.42,
+  "fix": "outcome",
+  "backend": "venice-fallback",
+  "scored_at": "2026-10-21 23:36",
+  "answers": {
+   "stop": {
+    "type": "noul",
+    "noul": 0.63
+   },
+   "hook": {
+    "type": "score",
+    "score": 2.42,
+    "legend": {
+     "0": "Scrolled past without registering",
+     "1": "Noticed but kept moving",
+     "2": "Watched most of it",
+     "3": "Watched to the end",
+     "4": "Would share or comment"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.09,
+     "2": 0.41,
+     "3": 0.49,
+     "4": 0.01
+    },
+    "confidence": 0.5
+   },
+   "clarity": {
+    "type": "score",
+    "score": 2.58,
+    "legend": {
+     "0": "Confusing",
+     "1": "Clear after effort",
+     "2": "Clear immediately",
+     "3": "Clear and personally relevant"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.05,
+     "2": 0.32,
+     "3": 0.63
+    },
+    "confidence": 0.58
+   },
+   "brand": {
+    "type": "score",
+    "score": 2.04,
+    "legend": {
+     "0": "No",
+     "1": "Barely",
+     "2": "Probably",
+     "3": "Yes, memorable"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.1,
+     "2": 0.76,
+     "3": 0.14
+    },
+    "confidence": 0.76
+   },
+   "cta": {
+    "type": "score",
+    "score": 2.48,
+    "legend": {
+     "0": "None",
+     "1": "Weak",
+     "2": "Decent",
+     "3": "Strong"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.02,
+     "2": 0.47,
+     "3": 0.51
+    },
+    "confidence": 0.49
+   },
+   "native": {
+    "type": "noul",
+    "noul": 0.24
+   },
+   "risk": {
+    "type": "noul",
+    "noul": 0.42
+   },
+   "next_fix": {
+    "type": "choice",
+    "choice": "outcome",
+    "probabilities": {
+     "hook1": 0.29,
+     "product": 0.13,
+     "outcome": 0.38,
+     "persona": 0.09,
+     "cta": 0.11
+    },
+    "confidence": 0.22
+   }
+  }
+ },
+ "p15v4": {
+  "score": 60.4,
+  "band": "Average (1–2%)",
+  "risk": 0.21,
+  "fix": "outcome",
+  "backend": "venice-fallback",
+  "scored_at": "2026-10-21 23:36",
+  "answers": {
+   "stop": {
+    "type": "noul",
+    "noul": 0.55
+   },
+   "hook": {
+    "type": "score",
+    "score": 2.25,
+    "legend": {
+     "0": "Scrolled past without registering",
+     "1": "Noticed but kept moving",
+     "2": "Watched most of it",
+     "3": "Watched to the end",
+     "4": "Would share or comment"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.14,
+     "2": 0.47000000000000003,
+     "3": 0.39,
+     "4": 0
+    },
+    "confidence": 0.56
+   },
+   "clarity": {
+    "type": "score",
+    "score": 2.5,
+    "legend": {
+     "0": "Confusing",
+     "1": "Clear after effort",
+     "2": "Clear immediately",
+     "3": "Clear and personally relevant"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.06,
+     "2": 0.37,
+     "3": 0.57
+    },
+    "confidence": 0.51
+   },
+   "brand": {
+    "type": "score",
+    "score": 2.07,
+    "legend": {
+     "0": "No",
+     "1": "Barely",
+     "2": "Probably",
+     "3": "Yes, memorable"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.07,
+     "2": 0.79,
+     "3": 0.14
+    },
+    "confidence": 0.79
+   },
+   "cta": {
+    "type": "score",
+    "score": 2.43,
+    "legend": {
+     "0": "None",
+     "1": "Weak",
+     "2": "Decent",
+     "3": "Strong"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.02,
+     "2": 0.53,
+     "3": 0.45
+    },
+    "confidence": 0.53
+   },
+   "native": {
+    "type": "noul",
+    "noul": 0.22
+   },
+   "risk": {
+    "type": "noul",
+    "noul": 0.21
+   },
+   "next_fix": {
+    "type": "choice",
+    "choice": "outcome",
+    "probabilities": {
+     "hook1": 0.29,
+     "product": 0.08,
+     "outcome": 0.39,
+     "persona": 0.07,
+     "cta": 0.17
+    },
+    "confidence": 0.24
+   }
+  }
+ },
+ "p16v4": {
+  "score": 53.2,
+  "band": "Average (1–2%)",
+  "risk": 0.23,
+  "fix": "outcome",
+  "backend": "venice-fallback",
+  "scored_at": "2026-10-21 23:36",
+  "answers": {
+   "stop": {
+    "type": "noul",
+    "noul": 0.48
+   },
+   "hook": {
+    "type": "score",
+    "score": 1.92,
+    "legend": {
+     "0": "Scrolled past without registering",
+     "1": "Noticed but kept moving",
+     "2": "Watched most of it",
+     "3": "Watched to the end",
+     "4": "Would share or comment"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.29,
+     "2": 0.5,
+     "3": 0.21,
+     "4": 0
+    },
+    "confidence": 0.58
+   },
+   "clarity": {
+    "type": "score",
+    "score": 2.38,
+    "legend": {
+     "0": "Confusing",
+     "1": "Clear after effort",
+     "2": "Clear immediately",
+     "3": "Clear and personally relevant"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.08,
+     "2": 0.45,
+     "3": 0.47
+    },
+    "confidence": 0.39
+   },
+   "brand": {
+    "type": "score",
+    "score": 1.69,
+    "legend": {
+     "0": "No",
+     "1": "Barely",
+     "2": "Probably",
+     "3": "Yes, memorable"
+    },
+    "probabilities": {
+     "0": 0.01,
+     "1": 0.33,
+     "2": 0.62,
+     "3": 0.04
+    },
+    "confidence": 0.61
+   },
+   "cta": {
+    "type": "score",
+    "score": 2.17,
+    "legend": {
+     "0": "None",
+     "1": "Weak",
+     "2": "Decent",
+     "3": "Strong"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.07,
+     "2": 0.69,
+     "3": 0.24
+    },
+    "confidence": 0.69
+   },
+   "native": {
+    "type": "noul",
+    "noul": 0.2
+   },
+   "risk": {
+    "type": "noul",
+    "noul": 0.23
+   },
+   "next_fix": {
+    "type": "choice",
+    "choice": "outcome",
+    "probabilities": {
+     "hook1": 0.24,
+     "product": 0.09,
+     "outcome": 0.48,
+     "persona": 0.05,
+     "cta": 0.14
+    },
+    "confidence": 0.35
+   }
+  }
+ },
+ "p17v4": {
+  "score": 56.9,
+  "band": "Average (1–2%)",
+  "risk": 0.36,
+  "fix": "outcome",
+  "backend": "venice-fallback",
+  "scored_at": "2026-10-21 23:36",
+  "answers": {
+   "stop": {
+    "type": "noul",
+    "noul": 0.55
+   },
+   "hook": {
+    "type": "score",
+    "score": 2.07,
+    "legend": {
+     "0": "Scrolled past without registering",
+     "1": "Noticed but kept moving",
+     "2": "Watched most of it",
+     "3": "Watched to the end",
+     "4": "Would share or comment"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.2,
+     "2": 0.53,
+     "3": 0.27,
+     "4": 0
+    },
+    "confidence": 0.61
+   },
+   "clarity": {
+    "type": "score",
+    "score": 2.39,
+    "legend": {
+     "0": "Confusing",
+     "1": "Clear after effort",
+     "2": "Clear immediately",
+     "3": "Clear and personally relevant"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.04,
+     "2": 0.53,
+     "3": 0.43
+    },
+    "confidence": 0.53
+   },
+   "brand": {
+    "type": "score",
+    "score": 1.85,
+    "legend": {
+     "0": "No",
+     "1": "Barely",
+     "2": "Probably",
+     "3": "Yes, memorable"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.22,
+     "2": 0.7,
+     "3": 0.08
+    },
+    "confidence": 0.7
+   },
+   "cta": {
+    "type": "score",
+    "score": 2.33,
+    "legend": {
+     "0": "None",
+     "1": "Weak",
+     "2": "Decent",
+     "3": "Strong"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.03,
+     "2": 0.6,
+     "3": 0.37
+    },
+    "confidence": 0.6
+   },
+   "native": {
+    "type": "noul",
+    "noul": 0.19
+   },
+   "risk": {
+    "type": "noul",
+    "noul": 0.36
+   },
+   "next_fix": {
+    "type": "choice",
+    "choice": "outcome",
+    "probabilities": {
+     "hook1": 0.2,
+     "product": 0.22,
+     "outcome": 0.37,
+     "persona": 0.08,
+     "cta": 0.13
+    },
+    "confidence": 0.21
+   }
+  }
+ },
+ "p20v4": {
+  "score": 55.3,
+  "band": "Average (1–2%)",
+  "risk": 0.38,
+  "fix": "outcome",
+  "backend": "venice-fallback",
+  "scored_at": "2026-10-21 23:36",
+  "answers": {
+   "stop": {
+    "type": "noul",
+    "noul": 0.55
+   },
+   "hook": {
+    "type": "score",
+    "score": 1.76,
+    "legend": {
+     "0": "Scrolled past without registering",
+     "1": "Noticed but kept moving",
+     "2": "Watched most of it",
+     "3": "Watched to the end",
+     "4": "Would share or comment"
+    },
+    "probabilities": {
+     "0": 0.01,
+     "1": 0.36,
+     "2": 0.5,
+     "3": 0.13,
+     "4": 0
+    },
+    "confidence": 0.57
+   },
+   "clarity": {
+    "type": "score",
+    "score": 2.52,
+    "legend": {
+     "0": "Confusing",
+     "1": "Clear after effort",
+     "2": "Clear immediately",
+     "3": "Clear and personally relevant"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.06,
+     "2": 0.37,
+     "3": 0.57
+    },
+    "confidence": 0.51
+   },
+   "brand": {
+    "type": "score",
+    "score": 2.02,
+    "legend": {
+     "0": "No",
+     "1": "Barely",
+     "2": "Probably",
+     "3": "Yes, memorable"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.11,
+     "2": 0.76,
+     "3": 0.13
+    },
+    "confidence": 0.76
+   },
+   "cta": {
+    "type": "score",
+    "score": 2.24,
+    "legend": {
+     "0": "None",
+     "1": "Weak",
+     "2": "Decent",
+     "3": "Strong"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.06,
+     "2": 0.64,
+     "3": 0.3
+    },
+    "confidence": 0.64
+   },
+   "native": {
+    "type": "noul",
+    "noul": 0.21
+   },
+   "risk": {
+    "type": "noul",
+    "noul": 0.38
+   },
+   "next_fix": {
+    "type": "choice",
+    "choice": "outcome",
+    "probabilities": {
+     "hook1": 0.21,
+     "product": 0.08,
+     "outcome": 0.42,
+     "persona": 0.08,
+     "cta": 0.21
+    },
+    "confidence": 0.27
+   }
+  }
+ },
+ "l01v4": {
+  "score": 54.6,
+  "band": "Average (1–2%)",
+  "risk": 0.31,
+  "fix": "outcome",
+  "backend": "venice-fallback",
+  "scored_at": "2026-10-21 23:36",
+  "answers": {
+   "stop": {
+    "type": "noul",
+    "noul": 0.46
+   },
+   "hook": {
+    "type": "score",
+    "score": 2.19,
+    "legend": {
+     "0": "Scrolled past without registering",
+     "1": "Noticed but kept moving",
+     "2": "Watched most of it",
+     "3": "Watched to the end",
+     "4": "Would share or comment"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.18,
+     "2": 0.45,
+     "3": 0.37,
+     "4": 0
+    },
+    "confidence": 0.54
+   },
+   "clarity": {
+    "type": "score",
+    "score": 2.17,
+    "legend": {
+     "0": "Confusing",
+     "1": "Clear after effort",
+     "2": "Clear immediately",
+     "3": "Clear and personally relevant"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.15,
+     "2": 0.52,
+     "3": 0.33
+    },
+    "confidence": 0.52
+   },
+   "brand": {
+    "type": "score",
+    "score": 1.87,
+    "legend": {
+     "0": "No",
+     "1": "Barely",
+     "2": "Probably",
+     "3": "Yes, memorable"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.22,
+     "2": 0.69,
+     "3": 0.09
+    },
+    "confidence": 0.69
+   },
+   "cta": {
+    "type": "score",
+    "score": 2.02,
+    "legend": {
+     "0": "None",
+     "1": "Weak",
+     "2": "Decent",
+     "3": "Strong"
+    },
+    "probabilities": {
+     "0": 0.01,
+     "1": 0.18,
+     "2": 0.59,
+     "3": 0.22
+    },
+    "confidence": 0.58
+   },
+   "native": {
+    "type": "noul",
+    "noul": 0.24
+   },
+   "risk": {
+    "type": "noul",
+    "noul": 0.31
+   },
+   "next_fix": {
+    "type": "choice",
+    "choice": "outcome",
+    "probabilities": {
+     "hook1": 0.24,
+     "product": 0.18,
+     "outcome": 0.35,
+     "persona": 0.11,
+     "cta": 0.12
+    },
+    "confidence": 0.19
+   }
+  }
+ },
+ "l02v4": {
+  "score": 55.1,
+  "band": "Average (1–2%)",
+  "risk": 0.54,
+  "fix": "outcome",
+  "backend": "venice-fallback",
+  "scored_at": "2026-10-21 23:36",
+  "answers": {
+   "stop": {
+    "type": "noul",
+    "noul": 0.46
+   },
+   "hook": {
+    "type": "score",
+    "score": 2.05,
+    "legend": {
+     "0": "Scrolled past without registering",
+     "1": "Noticed but kept moving",
+     "2": "Watched most of it",
+     "3": "Watched to the end",
+     "4": "Would share or comment"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.24,
+     "2": 0.46,
+     "3": 0.3,
+     "4": 0
+    },
+    "confidence": 0.55
+   },
+   "clarity": {
+    "type": "score",
+    "score": 2.39,
+    "legend": {
+     "0": "Confusing",
+     "1": "Clear after effort",
+     "2": "Clear immediately",
+     "3": "Clear and personally relevant"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.04,
+     "2": 0.53,
+     "3": 0.43
+    },
+    "confidence": 0.53
+   },
+   "brand": {
+    "type": "score",
+    "score": 1.83,
+    "legend": {
+     "0": "No",
+     "1": "Barely",
+     "2": "Probably",
+     "3": "Yes, memorable"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.22,
+     "2": 0.73,
+     "3": 0.05
+    },
+    "confidence": 0.73
+   },
+   "cta": {
+    "type": "score",
+    "score": 2.23,
+    "legend": {
+     "0": "None",
+     "1": "Weak",
+     "2": "Decent",
+     "3": "Strong"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.06,
+     "2": 0.65,
+     "3": 0.29
+    },
+    "confidence": 0.65
+   },
+   "native": {
+    "type": "noul",
+    "noul": 0.25
+   },
+   "risk": {
+    "type": "noul",
+    "noul": 0.54
+   },
+   "next_fix": {
+    "type": "choice",
+    "choice": "outcome",
+    "probabilities": {
+     "hook1": 0.29,
+     "product": 0.1,
+     "outcome": 0.43,
+     "persona": 0.1,
+     "cta": 0.08
+    },
+    "confidence": 0.29
+   }
+  }
+ },
+ "l03v4": {
+  "score": 56.3,
+  "band": "Average (1–2%)",
+  "risk": 0.3,
+  "fix": "outcome",
+  "backend": "venice-fallback",
+  "scored_at": "2026-10-21 23:36",
+  "answers": {
+   "stop": {
+    "type": "noul",
+    "noul": 0.49
+   },
+   "hook": {
+    "type": "score",
+    "score": 2.18,
+    "legend": {
+     "0": "Scrolled past without registering",
+     "1": "Noticed but kept moving",
+     "2": "Watched most of it",
+     "3": "Watched to the end",
+     "4": "Would share or comment"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.17,
+     "2": 0.47,
+     "3": 0.35,
+     "4": 0.01
+    },
+    "confidence": 0.55
+   },
+   "clarity": {
+    "type": "score",
+    "score": 2.21,
+    "legend": {
+     "0": "Confusing",
+     "1": "Clear after effort",
+     "2": "Clear immediately",
+     "3": "Clear and personally relevant"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.04,
+     "2": 0.71,
+     "3": 0.25
+    },
+    "confidence": 0.71
+   },
+   "brand": {
+    "type": "score",
+    "score": 1.89,
+    "legend": {
+     "0": "No",
+     "1": "Barely",
+     "2": "Probably",
+     "3": "Yes, memorable"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.19,
+     "2": 0.72,
+     "3": 0.09
+    },
+    "confidence": 0.72
+   },
+   "cta": {
+    "type": "score",
+    "score": 2.43,
+    "legend": {
+     "0": "None",
+     "1": "Weak",
+     "2": "Decent",
+     "3": "Strong"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.04,
+     "2": 0.49,
+     "3": 0.47
+    },
+    "confidence": 0.49
+   },
+   "native": {
+    "type": "noul",
+    "noul": 0.2
+   },
+   "risk": {
+    "type": "noul",
+    "noul": 0.3
+   },
+   "next_fix": {
+    "type": "choice",
+    "choice": "outcome",
+    "probabilities": {
+     "hook1": 0.26,
+     "product": 0.07,
+     "outcome": 0.5,
+     "persona": 0.05,
+     "cta": 0.12
+    },
+    "confidence": 0.37
+   }
+  }
+ },
+ "l04v4": {
+  "score": 48.8,
+  "band": "Average (1–2%)",
+  "risk": 0.44,
+  "fix": "outcome",
+  "backend": "venice-fallback",
+  "scored_at": "2026-10-21 23:36",
+  "answers": {
+   "stop": {
+    "type": "noul",
+    "noul": 0.49
+   },
+   "hook": {
+    "type": "score",
+    "score": 1.77,
+    "legend": {
+     "0": "Scrolled past without registering",
+     "1": "Noticed but kept moving",
+     "2": "Watched most of it",
+     "3": "Watched to the end",
+     "4": "Would share or comment"
+    },
+    "probabilities": {
+     "0": 0.01,
+     "1": 0.41,
+     "2": 0.4,
+     "3": 0.18,
+     "4": 0
+    },
+    "confidence": 0.36
+   },
+   "clarity": {
+    "type": "score",
+    "score": 1.97,
+    "legend": {
+     "0": "Confusing",
+     "1": "Clear after effort",
+     "2": "Clear immediately",
+     "3": "Clear and personally relevant"
+    },
+    "probabilities": {
+     "0": 0.01,
+     "1": 0.2,
+     "2": 0.61,
+     "3": 0.18
+    },
+    "confidence": 0.6
+   },
+   "brand": {
+    "type": "score",
+    "score": 1.74,
+    "legend": {
+     "0": "No",
+     "1": "Barely",
+     "2": "Probably",
+     "3": "Yes, memorable"
+    },
+    "probabilities": {
+     "0": 0.01,
+     "1": 0.3,
+     "2": 0.64,
+     "3": 0.05
+    },
+    "confidence": 0.63
+   },
+   "cta": {
+    "type": "score",
+    "score": 1.87,
+    "legend": {
+     "0": "None",
+     "1": "Weak",
+     "2": "Decent",
+     "3": "Strong"
+    },
+    "probabilities": {
+     "0": 0.01,
+     "1": 0.24,
+     "2": 0.61,
+     "3": 0.14
+    },
+    "confidence": 0.6
+   },
+   "native": {
+    "type": "noul",
+    "noul": 0.16
+   },
+   "risk": {
+    "type": "noul",
+    "noul": 0.44
+   },
+   "next_fix": {
+    "type": "choice",
+    "choice": "outcome",
+    "probabilities": {
+     "hook1": 0.25,
+     "product": 0.1,
+     "outcome": 0.32,
+     "persona": 0.08,
+     "cta": 0.25
+    },
+    "confidence": 0.15
+   }
+  }
+ },
+ "l05v4": {
+  "score": 44.3,
+  "band": "Weak (<1%)",
+  "risk": 0.3,
+  "fix": "outcome",
+  "backend": "venice-fallback",
+  "scored_at": "2026-10-21 23:36",
+  "answers": {
+   "stop": {
+    "type": "noul",
+    "noul": 0.5
+   },
+   "hook": {
+    "type": "score",
+    "score": 1.45,
+    "legend": {
+     "0": "Scrolled past without registering",
+     "1": "Noticed but kept moving",
+     "2": "Watched most of it",
+     "3": "Watched to the end",
+     "4": "Would share or comment"
+    },
+    "probabilities": {
+     "0": 0.01,
+     "1": 0.59,
+     "2": 0.33,
+     "3": 0.07,
+     "4": 0
+    },
+    "confidence": 0.6
+   },
+   "clarity": {
+    "type": "score",
+    "score": 1.59,
+    "legend": {
+     "0": "Confusing",
+     "1": "Clear after effort",
+     "2": "Clear immediately",
+     "3": "Clear and personally relevant"
+    },
+    "probabilities": {
+     "0": 0.04,
+     "1": 0.48,
+     "2": 0.34,
+     "3": 0.14
+    },
+    "confidence": 0.34
+   },
+   "brand": {
+    "type": "score",
+    "score": 1.76,
+    "legend": {
+     "0": "No",
+     "1": "Barely",
+     "2": "Probably",
+     "3": "Yes, memorable"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.28,
+     "2": 0.67,
+     "3": 0.04
+    },
+    "confidence": 0.68
+   },
+   "cta": {
+    "type": "score",
+    "score": 1.69,
+    "legend": {
+     "0": "None",
+     "1": "Weak",
+     "2": "Decent",
+     "3": "Strong"
+    },
+    "probabilities": {
+     "0": 0.01,
+     "1": 0.36,
+     "2": 0.55,
+     "3": 0.08
+    },
+    "confidence": 0.54
+   },
+   "native": {
+    "type": "noul",
+    "noul": 0.22
+   },
+   "risk": {
+    "type": "noul",
+    "noul": 0.3
+   },
+   "next_fix": {
+    "type": "choice",
+    "choice": "outcome",
+    "probabilities": {
+     "hook1": 0.32,
+     "product": 0.2,
+     "outcome": 0.34,
+     "persona": 0.05,
+     "cta": 0.09
+    },
+    "confidence": 0.18
+   }
+  }
+ },
+ "l06v4": {
+  "score": 52.0,
+  "band": "Average (1–2%)",
+  "risk": 0.21,
+  "fix": "hook1",
+  "backend": "venice-fallback",
+  "scored_at": "2026-10-21 23:36",
+  "answers": {
+   "stop": {
+    "type": "noul",
+    "noul": 0.5
+   },
+   "hook": {
+    "type": "score",
+    "score": 1.76,
+    "legend": {
+     "0": "Scrolled past without registering",
+     "1": "Noticed but kept moving",
+     "2": "Watched most of it",
+     "3": "Watched to the end",
+     "4": "Would share or comment"
+    },
+    "probabilities": {
+     "0": 0.01,
+     "1": 0.38,
+     "2": 0.46,
+     "3": 0.15,
+     "4": 0
+    },
+    "confidence": 0.54
+   },
+   "clarity": {
+    "type": "score",
+    "score": 2.3,
+    "legend": {
+     "0": "Confusing",
+     "1": "Clear after effort",
+     "2": "Clear immediately",
+     "3": "Clear and personally relevant"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.11,
+     "2": 0.48,
+     "3": 0.41
+    },
+    "confidence": 0.48
+   },
+   "brand": {
+    "type": "score",
+    "score": 1.82,
+    "legend": {
+     "0": "No",
+     "1": "Barely",
+     "2": "Probably",
+     "3": "Yes, memorable"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.23,
+     "2": 0.71,
+     "3": 0.06
+    },
+    "confidence": 0.71
+   },
+   "cta": {
+    "type": "score",
+    "score": 2.08,
+    "legend": {
+     "0": "None",
+     "1": "Weak",
+     "2": "Decent",
+     "3": "Strong"
+    },
+    "probabilities": {
+     "0": 0.01,
+     "1": 0.11,
+     "2": 0.68,
+     "3": 0.2
+    },
+    "confidence": 0.67
+   },
+   "native": {
+    "type": "noul",
+    "noul": 0.21
+   },
+   "risk": {
+    "type": "noul",
+    "noul": 0.21
+   },
+   "next_fix": {
+    "type": "choice",
+    "choice": "hook1",
+    "probabilities": {
+     "hook1": 0.29,
+     "product": 0.09,
+     "outcome": 0.27999999999999997,
+     "persona": 0.15,
+     "cta": 0.19
+    },
+    "confidence": 0.11
+   }
+  }
+ },
+ "r01v4": {
+  "score": 58.8,
+  "band": "Average (1–2%)",
+  "risk": 0.84,
+  "fix": "outcome",
+  "backend": "venice-fallback",
+  "scored_at": "2026-10-21 23:36",
+  "answers": {
+   "stop": {
+    "type": "noul",
+    "noul": 0.56
+   },
+   "hook": {
+    "type": "score",
+    "score": 2.26,
+    "legend": {
+     "0": "Scrolled past without registering",
+     "1": "Noticed but kept moving",
+     "2": "Watched most of it",
+     "3": "Watched to the end",
+     "4": "Would share or comment"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.15,
+     "2": 0.44,
+     "3": 0.4,
+     "4": 0.01
+    },
+    "confidence": 0.52
+   },
+   "clarity": {
+    "type": "score",
+    "score": 1.9,
+    "legend": {
+     "0": "Confusing",
+     "1": "Clear after effort",
+     "2": "Clear immediately",
+     "3": "Clear and personally relevant"
+    },
+    "probabilities": {
+     "0": 0.01,
+     "1": 0.26,
+     "2": 0.56,
+     "3": 0.17
+    },
+    "confidence": 0.55
+   },
+   "brand": {
+    "type": "score",
+    "score": 2.38,
+    "legend": {
+     "0": "No",
+     "1": "Barely",
+     "2": "Probably",
+     "3": "Yes, memorable"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.04,
+     "2": 0.54,
+     "3": 0.42
+    },
+    "confidence": 0.54
+   },
+   "cta": {
+    "type": "score",
+    "score": 2.77,
+    "legend": {
+     "0": "None",
+     "1": "Weak",
+     "2": "Decent",
+     "3": "Strong"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.01,
+     "2": 0.21,
+     "3": 0.78
+    },
+    "confidence": 0.77
+   },
+   "native": {
+    "type": "noul",
+    "noul": 0.12
+   },
+   "risk": {
+    "type": "noul",
+    "noul": 0.84
+   },
+   "next_fix": {
+    "type": "choice",
+    "choice": "outcome",
+    "probabilities": {
+     "hook1": 0.21,
+     "product": 0.16,
+     "outcome": 0.44,
+     "persona": 0.06,
+     "cta": 0.13
+    },
+    "confidence": 0.3
+   }
+  }
+ },
+ "r02v4": {
+  "score": 53.1,
+  "band": "Average (1–2%)",
+  "risk": 0.64,
+  "fix": "outcome",
+  "backend": "venice-fallback",
+  "scored_at": "2026-10-21 23:36",
+  "answers": {
+   "stop": {
+    "type": "noul",
+    "noul": 0.49
+   },
+   "hook": {
+    "type": "score",
+    "score": 1.83,
+    "legend": {
+     "0": "Scrolled past without registering",
+     "1": "Noticed but kept moving",
+     "2": "Watched most of it",
+     "3": "Watched to the end",
+     "4": "Would share or comment"
+    },
+    "probabilities": {
+     "0": 0.01,
+     "1": 0.37,
+     "2": 0.41,
+     "3": 0.21,
+     "4": 0
+    },
+    "confidence": 0.5
+   },
+   "clarity": {
+    "type": "score",
+    "score": 2.06,
+    "legend": {
+     "0": "Confusing",
+     "1": "Clear after effort",
+     "2": "Clear immediately",
+     "3": "Clear and personally relevant"
+    },
+    "probabilities": {
+     "0": 0.01,
+     "1": 0.2,
+     "2": 0.51,
+     "3": 0.28
+    },
+    "confidence": 0.5
+   },
+   "brand": {
+    "type": "score",
+    "score": 2.23,
+    "legend": {
+     "0": "No",
+     "1": "Barely",
+     "2": "Probably",
+     "3": "Yes, memorable"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.05,
+     "2": 0.67,
+     "3": 0.28
+    },
+    "confidence": 0.67
+   },
+   "cta": {
+    "type": "score",
+    "score": 2.39,
+    "legend": {
+     "0": "None",
+     "1": "Weak",
+     "2": "Decent",
+     "3": "Strong"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.06,
+     "2": 0.49,
+     "3": 0.45
+    },
+    "confidence": 0.49
+   },
+   "native": {
+    "type": "noul",
+    "noul": 0.16
+   },
+   "risk": {
+    "type": "noul",
+    "noul": 0.64
+   },
+   "next_fix": {
+    "type": "choice",
+    "choice": "outcome",
+    "probabilities": {
+     "hook1": 0.22,
+     "product": 0.18,
+     "outcome": 0.31,
+     "persona": 0.04,
+     "cta": 0.25
+    },
+    "confidence": 0.14
+   }
+  }
+ },
+ "r03v4": {
+  "score": 48.7,
+  "band": "Average (1–2%)",
+  "risk": 0.15,
+  "fix": "cta",
+  "backend": "venice-fallback",
+  "scored_at": "2026-10-21 23:36",
+  "answers": {
+   "stop": {
+    "type": "noul",
+    "noul": 0.48
+   },
+   "hook": {
+    "type": "score",
+    "score": 1.79,
+    "legend": {
+     "0": "Scrolled past without registering",
+     "1": "Noticed but kept moving",
+     "2": "Watched most of it",
+     "3": "Watched to the end",
+     "4": "Would share or comment"
+    },
+    "probabilities": {
+     "0": 0.01,
+     "1": 0.38,
+     "2": 0.43,
+     "3": 0.18,
+     "4": 0
+    },
+    "confidence": 0.52
+   },
+   "clarity": {
+    "type": "score",
+    "score": 1.57,
+    "legend": {
+     "0": "Confusing",
+     "1": "Clear after effort",
+     "2": "Clear immediately",
+     "3": "Clear and personally relevant"
+    },
+    "probabilities": {
+     "0": 0.03,
+     "1": 0.49,
+     "2": 0.37,
+     "3": 0.11
+    },
+    "confidence": 0.38
+   },
+   "brand": {
+    "type": "score",
+    "score": 2.05,
+    "legend": {
+     "0": "No",
+     "1": "Barely",
+     "2": "Probably",
+     "3": "Yes, memorable"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.12,
+     "2": 0.71,
+     "3": 0.17
+    },
+    "confidence": 0.71
+   },
+   "cta": {
+    "type": "score",
+    "score": 2.12,
+    "legend": {
+     "0": "None",
+     "1": "Weak",
+     "2": "Decent",
+     "3": "Strong"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.11,
+     "2": 0.66,
+     "3": 0.23
+    },
+    "confidence": 0.66
+   },
+   "native": {
+    "type": "noul",
+    "noul": 0.17
+   },
+   "risk": {
+    "type": "noul",
+    "noul": 0.15
+   },
+   "next_fix": {
+    "type": "choice",
+    "choice": "cta",
+    "probabilities": {
+     "hook1": 0.19,
+     "product": 0.1,
+     "outcome": 0.24,
+     "persona": 0.06,
+     "cta": 0.41
+    },
+    "confidence": 0.26
+   }
+  }
+ },
+ "r04v4": {
+  "score": 59.2,
+  "band": "Average (1–2%)",
+  "risk": 0.67,
+  "fix": "outcome",
+  "backend": "venice-fallback",
+  "scored_at": "2026-10-21 23:36",
+  "answers": {
+   "stop": {
+    "type": "noul",
+    "noul": 0.57
+   },
+   "hook": {
+    "type": "score",
+    "score": 2.2,
+    "legend": {
+     "0": "Scrolled past without registering",
+     "1": "Noticed but kept moving",
+     "2": "Watched most of it",
+     "3": "Watched to the end",
+     "4": "Would share or comment"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.15,
+     "2": 0.49,
+     "3": 0.35,
+     "4": 0.01
+    },
+    "confidence": 0.57
+   },
+   "clarity": {
+    "type": "score",
+    "score": 2.36,
+    "legend": {
+     "0": "Confusing",
+     "1": "Clear after effort",
+     "2": "Clear immediately",
+     "3": "Clear and personally relevant"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.13,
+     "2": 0.38,
+     "3": 0.49
+    },
+    "confidence": 0.36
+   },
+   "brand": {
+    "type": "score",
+    "score": 1.87,
+    "legend": {
+     "0": "No",
+     "1": "Barely",
+     "2": "Probably",
+     "3": "Yes, memorable"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.22,
+     "2": 0.6900000000000001,
+     "3": 0.09
+    },
+    "confidence": 0.69
+   },
+   "cta": {
+    "type": "score",
+    "score": 2.61,
+    "legend": {
+     "0": "None",
+     "1": "Weak",
+     "2": "Decent",
+     "3": "Strong"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.02,
+     "2": 0.34,
+     "3": 0.64
+    },
+    "confidence": 0.62
+   },
+   "native": {
+    "type": "noul",
+    "noul": 0.18
+   },
+   "risk": {
+    "type": "noul",
+    "noul": 0.67
+   },
+   "next_fix": {
+    "type": "choice",
+    "choice": "outcome",
+    "probabilities": {
+     "hook1": 0.23,
+     "product": 0.14,
+     "outcome": 0.43,
+     "persona": 0.1,
+     "cta": 0.1
+    },
+    "confidence": 0.29
+   }
+  }
+ },
+ "r06v4": {
+  "score": 51.5,
+  "band": "Average (1–2%)",
+  "risk": 0.43,
+  "fix": "outcome",
+  "backend": "venice-fallback",
+  "scored_at": "2026-10-21 23:36",
+  "answers": {
+   "stop": {
+    "type": "noul",
+    "noul": 0.55
+   },
+   "hook": {
+    "type": "score",
+    "score": 1.68,
+    "legend": {
+     "0": "Scrolled past without registering",
+     "1": "Noticed but kept moving",
+     "2": "Watched most of it",
+     "3": "Watched to the end",
+     "4": "Would share or comment"
+    },
+    "probabilities": {
+     "0": 0.01,
+     "1": 0.44,
+     "2": 0.42,
+     "3": 0.13,
+     "4": 0
+    },
+    "confidence": 0.43
+   },
+   "clarity": {
+    "type": "score",
+    "score": 2.06,
+    "legend": {
+     "0": "Confusing",
+     "1": "Clear after effort",
+     "2": "Clear immediately",
+     "3": "Clear and personally relevant"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.15,
+     "2": 0.63,
+     "3": 0.22
+    },
+    "confidence": 0.63
+   },
+   "brand": {
+    "type": "score",
+    "score": 1.9,
+    "legend": {
+     "0": "No",
+     "1": "Barely",
+     "2": "Probably",
+     "3": "Yes, memorable"
+    },
+    "probabilities": {
+     "0": 0.01,
+     "1": 0.18,
+     "2": 0.72,
+     "3": 0.09
+    },
+    "confidence": 0.71
+   },
+   "cta": {
+    "type": "score",
+    "score": 2.21,
+    "legend": {
+     "0": "None",
+     "1": "Weak",
+     "2": "Decent",
+     "3": "Strong"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.07,
+     "2": 0.64,
+     "3": 0.29
+    },
+    "confidence": 0.64
+   },
+   "native": {
+    "type": "noul",
+    "noul": 0.18
+   },
+   "risk": {
+    "type": "noul",
+    "noul": 0.43
+   },
+   "next_fix": {
+    "type": "choice",
+    "choice": "outcome",
+    "probabilities": {
+     "hook1": 0.21,
+     "product": 0.09,
+     "outcome": 0.4,
+     "persona": 0.09,
+     "cta": 0.21
+    },
+    "confidence": 0.25
+   }
+  }
+ },
+ "u01v4": {
+  "score": 49.2,
+  "band": "Average (1–2%)",
+  "risk": 0.23,
+  "fix": "outcome",
+  "backend": "venice-fallback",
+  "scored_at": "2026-10-21 23:36",
+  "answers": {
+   "stop": {
+    "type": "noul",
+    "noul": 0.46
+   },
+   "hook": {
+    "type": "score",
+    "score": 1.78,
+    "legend": {
+     "0": "Scrolled past without registering",
+     "1": "Noticed but kept moving",
+     "2": "Watched most of it",
+     "3": "Watched to the end",
+     "4": "Would share or comment"
+    },
+    "probabilities": {
+     "0": 0.01,
+     "1": 0.39,
+     "2": 0.42,
+     "3": 0.18,
+     "4": 0
+    },
+    "confidence": 0.51
+   },
+   "clarity": {
+    "type": "score",
+    "score": 1.94,
+    "legend": {
+     "0": "Confusing",
+     "1": "Clear after effort",
+     "2": "Clear immediately",
+     "3": "Clear and personally relevant"
+    },
+    "probabilities": {
+     "0": 0.01,
+     "1": 0.38,
+     "2": 0.27,
+     "3": 0.34
+    },
+    "confidence": 0.04
+   },
+   "brand": {
+    "type": "score",
+    "score": 1.84,
+    "legend": {
+     "0": "No",
+     "1": "Barely",
+     "2": "Probably",
+     "3": "Yes, memorable"
+    },
+    "probabilities": {
+     "0": 0.01,
+     "1": 0.24,
+     "2": 0.66,
+     "3": 0.09
+    },
+    "confidence": 0.65
+   },
+   "cta": {
+    "type": "score",
+    "score": 1.98,
+    "legend": {
+     "0": "None",
+     "1": "Weak",
+     "2": "Decent",
+     "3": "Strong"
+    },
+    "probabilities": {
+     "0": 0.01,
+     "1": 0.18,
+     "2": 0.63,
+     "3": 0.18
+    },
+    "confidence": 0.62
+   },
+   "native": {
+    "type": "noul",
+    "noul": 0.2
+   },
+   "risk": {
+    "type": "noul",
+    "noul": 0.23
+   },
+   "next_fix": {
+    "type": "choice",
+    "choice": "outcome",
+    "probabilities": {
+     "hook1": 0.22,
+     "product": 0.2,
+     "outcome": 0.31,
+     "persona": 0.08,
+     "cta": 0.19
+    },
+    "confidence": 0.14
+   }
+  }
+ },
+ "u02v4": {
+  "score": 51.8,
+  "band": "Average (1–2%)",
+  "risk": 0.21,
+  "fix": "outcome",
+  "backend": "venice-fallback",
+  "scored_at": "2026-10-21 23:36",
+  "answers": {
+   "stop": {
+    "type": "noul",
+    "noul": 0.5
+   },
+   "hook": {
+    "type": "score",
+    "score": 1.81,
+    "legend": {
+     "0": "Scrolled past without registering",
+     "1": "Noticed but kept moving",
+     "2": "Watched most of it",
+     "3": "Watched to the end",
+     "4": "Would share or comment"
+    },
+    "probabilities": {
+     "0": 0.01,
+     "1": 0.36,
+     "2": 0.45,
+     "3": 0.18,
+     "4": 0
+    },
+    "confidence": 0.53
+   },
+   "clarity": {
+    "type": "score",
+    "score": 2.19,
+    "legend": {
+     "0": "Confusing",
+     "1": "Clear after effort",
+     "2": "Clear immediately",
+     "3": "Clear and personally relevant"
+    },
+    "probabilities": {
+     "0": 0.01,
+     "1": 0.24,
+     "2": 0.3,
+     "3": 0.45
+    },
+    "confidence": 0.19
+   },
+   "brand": {
+    "type": "score",
+    "score": 1.82,
+    "legend": {
+     "0": "No",
+     "1": "Barely",
+     "2": "Probably",
+     "3": "Yes, memorable"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.25,
+     "2": 0.68,
+     "3": 0.07
+    },
+    "confidence": 0.68
+   },
+   "cta": {
+    "type": "score",
+    "score": 2.13,
+    "legend": {
+     "0": "None",
+     "1": "Weak",
+     "2": "Decent",
+     "3": "Strong"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.11,
+     "2": 0.64,
+     "3": 0.25
+    },
+    "confidence": 0.64
+   },
+   "native": {
+    "type": "noul",
+    "noul": 0.18
+   },
+   "risk": {
+    "type": "noul",
+    "noul": 0.21
+   },
+   "next_fix": {
+    "type": "choice",
+    "choice": "outcome",
+    "probabilities": {
+     "hook1": 0.28,
+     "product": 0.03,
+     "outcome": 0.45,
+     "persona": 0.11,
+     "cta": 0.13
+    },
+    "confidence": 0.31
+   }
+  }
+ },
+ "u03v4": {
+  "score": 54.1,
+  "band": "Average (1–2%)",
+  "risk": 0.26,
+  "fix": "outcome",
+  "backend": "venice-fallback",
+  "scored_at": "2026-10-21 23:36",
+  "answers": {
+   "stop": {
+    "type": "noul",
+    "noul": 0.55
+   },
+   "hook": {
+    "type": "score",
+    "score": 1.77,
+    "legend": {
+     "0": "Scrolled past without registering",
+     "1": "Noticed but kept moving",
+     "2": "Watched most of it",
+     "3": "Watched to the end",
+     "4": "Would share or comment"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.36,
+     "2": 0.51,
+     "3": 0.13,
+     "4": 0
+    },
+    "confidence": 0.59
+   },
+   "clarity": {
+    "type": "score",
+    "score": 1.97,
+    "legend": {
+     "0": "Confusing",
+     "1": "Clear after effort",
+     "2": "Clear immediately",
+     "3": "Clear and personally relevant"
+    },
+    "probabilities": {
+     "0": 0.01,
+     "1": 0.28,
+     "2": 0.45,
+     "3": 0.26
+    },
+    "confidence": 0.44
+   },
+   "brand": {
+    "type": "score",
+    "score": 2.01,
+    "legend": {
+     "0": "No",
+     "1": "Barely",
+     "2": "Probably",
+     "3": "Yes, memorable"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.11,
+     "2": 0.77,
+     "3": 0.12
+    },
+    "confidence": 0.77
+   },
+   "cta": {
+    "type": "score",
+    "score": 1.97,
+    "legend": {
+     "0": "None",
+     "1": "Weak",
+     "2": "Decent",
+     "3": "Strong"
+    },
+    "probabilities": {
+     "0": 0.01,
+     "1": 0.17,
+     "2": 0.6799999999999999,
+     "3": 0.14
+    },
+    "confidence": 0.67
+   },
+   "native": {
+    "type": "noul",
+    "noul": 0.45
+   },
+   "risk": {
+    "type": "noul",
+    "noul": 0.26
+   },
+   "next_fix": {
+    "type": "choice",
+    "choice": "outcome",
+    "probabilities": {
+     "hook1": 0.21,
+     "product": 0.09,
+     "outcome": 0.3,
+     "persona": 0.24,
+     "cta": 0.16
+    },
+    "confidence": 0.12
+   }
+  }
+ },
+ "u04v4": {
+  "score": 60.0,
+  "band": "Average (1–2%)",
+  "risk": 0.23,
+  "fix": "outcome",
+  "backend": "venice-fallback",
+  "scored_at": "2026-10-21 23:36",
+  "answers": {
+   "stop": {
+    "type": "noul",
+    "noul": 0.64
+   },
+   "hook": {
+    "type": "score",
+    "score": 2.06,
+    "legend": {
+     "0": "Scrolled past without registering",
+     "1": "Noticed but kept moving",
+     "2": "Watched most of it",
+     "3": "Watched to the end",
+     "4": "Would share or comment"
+    },
+    "probabilities": {
+     "0": 0.01,
+     "1": 0.22,
+     "2": 0.48,
+     "3": 0.29,
+     "4": 0
+    },
+    "confidence": 0.56
+   },
+   "clarity": {
+    "type": "score",
+    "score": 2.54,
+    "legend": {
+     "0": "Confusing",
+     "1": "Clear after effort",
+     "2": "Clear immediately",
+     "3": "Clear and personally relevant"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.06,
+     "2": 0.34,
+     "3": 0.6
+    },
+    "confidence": 0.54
+   },
+   "brand": {
+    "type": "score",
+    "score": 1.98,
+    "legend": {
+     "0": "No",
+     "1": "Barely",
+     "2": "Probably",
+     "3": "Yes, memorable"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.14,
+     "2": 0.73,
+     "3": 0.13
+    },
+    "confidence": 0.73
+   },
+   "cta": {
+    "type": "score",
+    "score": 2.38,
+    "legend": {
+     "0": "None",
+     "1": "Weak",
+     "2": "Decent",
+     "3": "Strong"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.04,
+     "2": 0.54,
+     "3": 0.42
+    },
+    "confidence": 0.54
+   },
+   "native": {
+    "type": "noul",
+    "noul": 0.19
+   },
+   "risk": {
+    "type": "noul",
+    "noul": 0.23
+   },
+   "next_fix": {
+    "type": "choice",
+    "choice": "outcome",
+    "probabilities": {
+     "hook1": 0.28,
+     "product": 0.16,
+     "outcome": 0.4,
+     "persona": 0.05,
+     "cta": 0.11
+    },
+    "confidence": 0.25
+   }
+  }
+ },
+ "u06v4": {
+  "score": 51.9,
+  "band": "Average (1–2%)",
+  "risk": 0.26,
+  "fix": "outcome",
+  "backend": "venice-fallback",
+  "scored_at": "2026-10-21 23:36",
+  "answers": {
+   "stop": {
+    "type": "noul",
+    "noul": 0.53
+   },
+   "hook": {
+    "type": "score",
+    "score": 1.84,
+    "legend": {
+     "0": "Scrolled past without registering",
+     "1": "Noticed but kept moving",
+     "2": "Watched most of it",
+     "3": "Watched to the end",
+     "4": "Would share or comment"
+    },
+    "probabilities": {
+     "0": 0.01,
+     "1": 0.35,
+     "2": 0.43,
+     "3": 0.2,
+     "4": 0.01
+    },
+    "confidence": 0.51
+   },
+   "clarity": {
+    "type": "score",
+    "score": 2,
+    "legend": {
+     "0": "Confusing",
+     "1": "Clear after effort",
+     "2": "Clear immediately",
+     "3": "Clear and personally relevant"
+    },
+    "probabilities": {
+     "0": 0.02,
+     "1": 0.33,
+     "2": 0.29,
+     "3": 0.36
+    },
+    "confidence": 0
+   },
+   "brand": {
+    "type": "score",
+    "score": 1.82,
+    "legend": {
+     "0": "No",
+     "1": "Barely",
+     "2": "Probably",
+     "3": "Yes, memorable"
+    },
+    "probabilities": {
+     "0": 0,
+     "1": 0.25,
+     "2": 0.67,
+     "3": 0.08
+    },
+    "confidence": 0.67
+   },
+   "cta": {
+    "type": "score",
+    "score": 2.09,
+    "legend": {
+     "0": "None",
+     "1": "Weak",
+     "2": "Decent",
+     "3": "Strong"
+    },
+    "probabilities": {
+     "0": 0.01,
+     "1": 0.12,
+     "2": 0.64,
+     "3": 0.23
+    },
+    "confidence": 0.63
+   },
+   "native": {
+    "type": "noul",
+    "noul": 0.22
+   },
+   "risk": {
+    "type": "noul",
+    "noul": 0.26
+   },
+   "next_fix": {
+    "type": "choice",
+    "choice": "outcome",
+    "probabilities": {
+     "hook1": 0.29,
+     "product": 0.06,
+     "outcome": 0.36,
+     "persona": 0.13,
+     "cta": 0.16
+    },
+    "confidence": 0.2
+   }
+  }
  }
 }
